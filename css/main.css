@@ -76,7 +76,12 @@ button.slick-prev {
     font-size: 0px;
     border: none;
     width: 25px;
-    height: 39px;
+    height: 51px;
+    z-index: 9;
     background-color: transparent;
-    background-image: url('../img/seta.png');
+    position: absolute;
+    background-image: url(../icons/icons-main/icons/arrow-left.svg);
+    background-repeat: no-repeat;
+    top: 35%;
+    left: 0;
 }
