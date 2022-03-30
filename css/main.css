@@ -81,8 +81,55 @@ button.slick-prev {
     z-index: 9;
     background-color: transparent;
     position: absolute;
-    background-image: url(../img/teste-left.png);
+    background-image: url(../img/arrow-left.png);
     background-repeat: no-repeat;
     top: 35%;
-    left: 0;
+    left: 2%;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 100px;
+    height: 500px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(../img/arrow-right.png);
+    background-repeat: no-repeat;
+    top: 35%;
+    right: 2%;
+}
+
+.slick-list {
+    width: 100%!important;
+}
+
+/* para assumir o espaçamento da tela toda e diminuir a barra do scroll*/
+.slick-initialized {
+    overflow: hidden;
+}
+
+/* edição dos botões inferiores ao slide*/
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #FFFFFF;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* para remover a margem dos botões inferiores do slide*/
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 600px
+}
+
+.slick-dots li {
+    display: inline-block;
 }
