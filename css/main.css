@@ -32,6 +32,7 @@ main {
 }
 .menu ul li {
     display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
     color: #FFFFFF;
     margin-left: 15px;
     height: 48px;
@@ -75,12 +76,12 @@ main {
 button.slick-prev {
     font-size: 0px;
     border: none;
-    width: 25px;
-    height: 51px;
+    width: 100px;
+    height: 500px;
     z-index: 9;
     background-color: transparent;
     position: absolute;
-    background-image: url(../icons/icons-main/icons/arrow-left.svg);
+    background-image: url(../img/teste-left.png);
     background-repeat: no-repeat;
     top: 35%;
     left: 0;
