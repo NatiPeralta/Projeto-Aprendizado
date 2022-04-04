@@ -11,7 +11,7 @@ ul {
     background-color: #44089B;
     height: 60px;
 }
-main {
+main, .content {
     margin: 0 auto;
     width: 980px;
     position: relative;
@@ -73,7 +73,9 @@ main {
     float: left;
     position: relative;
 }
+
 button.slick-prev {
+    cursor: pointer;
     font-size: 0px;
     border: none;
     width: 100px;
@@ -83,11 +85,12 @@ button.slick-prev {
     position: absolute;
     background-image: url(../img/arrow-left.png);
     background-repeat: no-repeat;
-    top: 35%;
+    top: 45%;
     left: 2%;
 }
 
 button.slick-next {
+    cursor: pointer;
     font-size: 0px;
     border: none;
     width: 100px;
@@ -97,7 +100,7 @@ button.slick-next {
     position: absolute;
     background-image: url(../img/arrow-right.png);
     background-repeat: no-repeat;
-    top: 35%;
+    top: 45%;
     right: 2%;
 }
 
@@ -113,9 +116,9 @@ button.slick-next {
 /* edição dos botões inferiores ao slide*/
 .slick-dots li button {
     font-size: 0px;
-    border: 5px solid #FFFFFF;
-    width: 26px;
-    height: 26px;
+    border: 4px solid #44089B;
+    width: 20px;
+    height: 20px;
     background: transparent;
     border-radius: 50%;
     cursor: pointer;
@@ -126,10 +129,95 @@ button.slick-next {
     margin: 0 auto;
     width: 50%;
     position: absolute;
-    left: 50%;
-    top: 600px
+    left: 47%;
+    top: 650px
+}
+
+/* a cor do botão inferior ao slide selecionado*/
+li.slick-active button {
+    background: #028277;
 }
 
 .slick-dots li {
+    padding-left: 10px;
     display: inline-block;
+}
+
+.texto-destaque {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.texto-destaque strong {
+    color: #FFB900;
+}
+
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #44089B;
+}
+
+.texto-destaque p {
+    font-size: 15px;
+    color: #028277;
+}
+
+.col-3 {
+    color: #44089B;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.bloco-imagem {
+    height: 300px;
+    border: 1px solid #A6A6A6;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+
+.bloco-imagem b, p {
+    text-align: left;
+}
+
+.bloco-texto {
+    margin-top: 3em;
+}
+
+h3 {
+    font-weight: normal!important;
+}
+
+.bloco-imagens-texto {
+    background-color: #C1DAFF;
+}
+
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: #FFFFFF;
+    background-image: url('../img/setinha.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 70px;
+    background: #eeeeee;
 }
