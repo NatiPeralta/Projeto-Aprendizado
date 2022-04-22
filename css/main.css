@@ -145,7 +145,6 @@ li.slick-active button {
 
 .texto-destaque {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
 }
 
 .texto-destaque strong {
@@ -156,6 +155,7 @@ li.slick-active button {
     text-transform: uppercase;
     font-size: 30px;
     color: #44089B;
+    text-align: center;
 }
 
 .texto-destaque p {
@@ -180,15 +180,31 @@ li.slick-active button {
 }
 
 .bloco-imagem {
-    height: 300px;
-    border: 1px solid #028277;
+    height: 312px;
+    background-color: #e0ecff;
+    border: 1px solid #84adeb;
     padding-top: 15px;
     padding-bottom: 15px;
     margin-left: 10px;
 }
 
-.bloco-imagem b, p {
+.bloco-imagem b {
     text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #082f69;
+}
+
+.bloco-imagem p {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0d4599;
+}
+
+.bloco-imagem a {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #082f69;
 }
 
 .bloco-texto {
