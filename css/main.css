@@ -130,7 +130,7 @@ button.slick-next {
     width: 50%;
     position: absolute;
     left: 47%;
-    top: 650px
+    top: 600px;
 }
 
 /* a cor do botão inferior ao slide selecionado*/
@@ -165,11 +165,25 @@ li.slick-active button {
 
 .col-3 {
     color: #44089B;
+    padding-left: 15px;
+    padding-right: 13px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+
+.col-2 {
+    color: #44089B;
     text-align: center;
     padding-left: 15px;
     padding-right: 13px;
     width: 29%;
     float: left;
+    position: relative;
+}
+
+.col-2 img:hover {
+    margin-top: 10px!important;
     position: relative;
 }
 
@@ -234,7 +248,22 @@ h3 {
     width: 100%;
     display: inline-block;
     content: '';
-    height: 70px;
-    background: #eeeeee;
 }
 
+.col-4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.col-4 p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #028277;
+}
+
+.col-4 img{
+    cursor: pointer;
+    margin: 0 auto;
+    padding-top: 1em;
+    vertical-align: middle;
+}
