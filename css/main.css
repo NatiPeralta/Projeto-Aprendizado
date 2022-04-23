@@ -28,7 +28,7 @@ main, .content {
 .menu-urls {
     height: 80px;
     background-color: #FFFFFF;
-    border-bottom: 5px solid #028277;
+    border-bottom: 4px solid #44089B;
 }
 .menu ul li {
     display: inline-block;

@@ -28,7 +28,7 @@ main, .content {
 .menu-urls {
     height: 80px;
     background-color: #FFFFFF;
-    border-bottom: 5px solid #028277;
+    border-bottom: 4px solid #44089B;
 }
 .menu ul li {
     display: inline-block;
@@ -38,7 +38,7 @@ main, .content {
     height: 48px;
 }
 .menu ul li:hover {
-    border-bottom: 5px solid #44089B;
+    border-bottom: 4px solid #44089B;
 }
 .menu ul li a:hover {
     color: #44089B;
@@ -52,12 +52,12 @@ main, .content {
 }
 
 ul li.active a {
-    background: #028277;
-    color: #FFFFFF;
+    background: #44089B;
+    color: #fff;
 }
 
 ul li.active a:hover {
-    background: #028277;
+    background: #44089B
     color: #FFFFFF;
 }
 
@@ -100,4 +100,139 @@ ul li.active a:hover {
     width: 100%;
     text-align: center;
     margin-top: 20px;
+}
+
+.col-3 {
+    color: #44089B;
+    padding-left: 10px;
+    padding-right: 13px;
+    width: 29%;
+    float: left;
+    position: relative;
+}
+
+.bloco-imagens-texto {
+    background-color: #FFFFFF;
+}
+
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 25px;
+    background: #FFFFFF;
+    background-image: url('../img/setinha-2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 50px;
+}
+
+.col-4 {
+    float: left;
+    width: 25%;
+    height: 25%;
+}
+
+.col-4 p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.col-4 img{
+    cursor: pointer;
+    margin: 0 auto;
+    padding-top: 1em;
+    vertical-align: middle;
+}
+
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.bloco-imagem {
+    height: 340px;
+    background-color: #F1C3FE;
+    border: 1px solid #004AAD;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10px;
+}
+
+.bloco-imagem b {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #082f69;
+}
+
+.bloco-imagem p {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0d4599;
+}
+
+.bloco-imagem a {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #082f69;
+}
+
+.bloco-texto {
+    margin-top: 3em;
+}
+
+.bloco-logos {
+    height: 110px;
+    margin-top: 5px;
+    padding-left: 40px;
+}
+
+.footer h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.footer {
+    background-color: #44089B;
+    color: #ffffff;
+    padding-left: 40px;
+    padding-right: 13px;
+}
+
+.footer-2 {
+    background-color: #230353;
+    color: #ffffff;
+    height: 70px;
+    text-align: center;
+}
+
+.footer p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 85%;
+    text-align: left;
+}
+
+.footer-2 p {
+    padding: 5px;
+}
+
+.email:before {
+    font-family: Arial, Helvetica, sans-serif;
+    content: '';
+    width: 20px;
+    height: 24px;
+    display: inline-block;
+    background-image: url('../img/email.png');
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
 }
