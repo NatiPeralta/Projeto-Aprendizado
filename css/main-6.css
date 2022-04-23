@@ -88,8 +88,8 @@ ul li.active a:hover {
 }
 
 .materia {
-    background-color: #F1C3FE;
-    color: #004AAD;
+    background-color: #CBBEFF;
+    color: #3A1A7B;
     height: 80px;
     text-align: center;
 }
@@ -121,7 +121,7 @@ ul li.active a:hover {
     content: '';
     height: 25px;
     background: #FFFFFF;
-    background-image: url('../img/setinha-2.png');
+    background-image: url('../img/setinha-6.png');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -159,8 +159,8 @@ ul li.active a:hover {
 
 .bloco-imagem {
     height: 340px;
-    background-color: #F1C3FE;
-    border: 1px solid #004AAD;
+    background-color: #CBBEFF;
+    border: 1px solid #3A1A7B;
     padding-top: 15px;
     padding-bottom: 15px;
     margin-left: 10px;
@@ -170,19 +170,19 @@ ul li.active a:hover {
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    color: #004AAD;
+    color: #3A1A7B;
 }
 
 .bloco-imagem p {
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    color: #0d4599;
+    color: #3A1A7B;
 }
 
 .bloco-imagem a {
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    color: #082f69;
+    color: #FF66C4;
 }
 
 .bloco-texto {
