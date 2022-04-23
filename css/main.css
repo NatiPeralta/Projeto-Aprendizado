@@ -13,7 +13,7 @@ ul {
 }
 main, .content {
     margin: 0 auto;
-    width: 980px;
+    width: 1100px;
     position: relative;
 }
 .logo {
@@ -21,7 +21,7 @@ main, .content {
     width: 70%;
 }
 .header-2 {
-    width: 980px;
+    width: 1130px;
     margin: 0 auto;
     padding: 16px;
 }
@@ -34,7 +34,7 @@ main, .content {
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     color: #FFFFFF;
-    margin-left: 15px;
+    margin-left: 8px;
     height: 48px;
 }
 .menu ul li:hover {
@@ -48,7 +48,19 @@ main, .content {
     text-decoration: none;
     font-size: 18px;
     text-transform: uppercase;
+    padding: 32px 15px;
 }
+
+ul li.active a {
+    background: #028277;
+    color: #FFFFFF;
+}
+
+ul li.active a:hover {
+    background: #028277;
+    color: #FFFFFF;
+}
+
 .menu {
     width: 90%;
     float: left;
@@ -165,7 +177,7 @@ li.slick-active button {
 
 .col-3 {
     color: #44089B;
-    padding-left: 15px;
+    padding-left: 10px;
     padding-right: 13px;
     width: 29%;
     float: left;
@@ -175,7 +187,7 @@ li.slick-active button {
 .col-2 {
     color: #44089B;
     text-align: center;
-    padding-left: 15px;
+    padding-left: 30px;
     padding-right: 13px;
     width: 29%;
     float: left;
@@ -194,7 +206,7 @@ li.slick-active button {
 }
 
 .bloco-imagem {
-    height: 312px;
+    height: 340px;
     background-color: #e0ecff;
     border: 1px solid #84adeb;
     padding-top: 15px;
@@ -255,6 +267,7 @@ h3 {
 .col-4 {
     float: left;
     width: 25%;
+    height: 25%;
 }
 
 .col-4 p {
@@ -272,6 +285,7 @@ h3 {
 .bloco-logos {
     height: 110px;
     margin-top: 5px;
+    padding-left: 40px;
 }
 
 .footer h3 {
@@ -282,6 +296,8 @@ h3 {
 .footer {
     background-color: #44089B;
     color: #ffffff;
+    padding-left: 40px;
+    padding-right: 13px;
 }
 
 .footer-2 {
@@ -294,12 +310,12 @@ h3 {
 .footer p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    width: 90%;
+    width: 85%;
     text-align: left;
 }
 
 .footer-2 p {
-    padding: 10px;
+    padding: 5px;
 }
 
 .email:before {
