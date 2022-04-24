@@ -185,6 +185,7 @@ li.slick-active button {
 }
 
 .col-2 {
+    cursor: pointer;
     color: #44089B;
     text-align: center;
     padding-left: 30px;
