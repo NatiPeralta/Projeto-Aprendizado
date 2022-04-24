@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Quiz Game</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div class="home-box custom-box hide">
+            <h3>Instruções:</h3>
+            <p>Número total de questões: <span class="total-question">5</span></p>
+            <button type="button" class="btn">Jogar!</button>
+        </div>
+
+        <div class="quiz-box custom-box hide">
+            <div class="question-number">
+                Questão 1 de 5
+            </div>
+            <div class="question-text">
+                Qual das seguintes frases apresenta erro na pontuação? 
+            </div>
+            <div class="option-container">
+                <div class="option">Você quer vir comigo ao parque?</div>
+                <div class="option">Quem sabe, um dia, você não aprende?</div>
+                <div class="option">O estudante levava, o lanche, na mochila.</div>
+                <div class="option">Pare imediatamente com isso!</div>
+            </div>
+            <div class="next-question-btn">
+                <button type="button" class="btn">Next</button>
+            </div>
+            <div class="answers-indicator">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <div class="result-box custom-box hide"></div>
+            <h1>Resultado do Quiz</h1>
+            <table>
+                <tr>
+                    <td>Total de Questões</td>
+                    <td><span class="total-question">5</span></td>
+                </tr>
+                <tr>
+                    <td>Tentativas</td>
+                    <td><span class="total-attempt">4</span></td>
+                </tr>
+                <tr>
+                    <td>Corretas</td>
+                    <td><span class="total-correct">3</span></td>
+                </tr>
+                <tr>
+                    <td>Erradas</td>
+                    <td><span class="total-wrong">1</span></td>
+                </tr>
+                <tr>
+                    <td>Porcentagem</td>
+                    <td><span class="percentage">60.00%</span></td>
+                </tr>
+                <tr>
+                    <td>Sua Pontuação Total</td>
+                    <td><span class="total-score">3 / 5</span></td>
+                </tr>
+            </table>
+            <button type="button" class="btn">Tentar Novamente</button>
+            <button type="button" class="btn">Voltar ao Início</button>
+    </body>
+</html>
