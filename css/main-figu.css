@@ -197,6 +197,18 @@ h3 {
     background: #C1DAFF;
 }
 
+.bloco-imagens-texto h1 {
+    font-family: cursive;
+    text-align: center;
+    color: #0d4599;
+}
+
+.bloco-imagens-texto h2 {
+    font-family: cursive;
+    color: #0d4599;
+    padding-left: 15px;
+}
+
 .col-4 {
     float: left;
     width: 25%;
