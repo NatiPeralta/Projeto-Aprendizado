@@ -3,11 +3,17 @@
 const questionNumber = document.querySelector(".question-number");
 const questionText = document.querySelector(".question-text");
 const optionContainer = document.querySelector(".option-container");
+const answersIndicatorContainer = document.querySelector(".answers-indicator");
+const homeBox = document.querySelector(".home-box");
+const quizBox = document.querySelector(".quiz-box");
+const resultBox = document.querySelector(".result-box");
 
 let questionCounter = 0;
 let currentQuestion;
 let availableQuestions = [];
 let availableOptions = [];
+let correctAnswers = 0;
+let attempt = 0;
 
 // envia as perguntas para o Array availableQuestions
 function setAvailableQuestions(){
@@ -70,10 +76,16 @@ function getResult(element){
     if(id === currentQuestion.answer){
         // Deixa verde a alternativa correta
         element.classList.add("correct");
+        // Adiciona um indicador de marca correta
+        updateAnswersIndicator("correct");
+        correctAnswers++;
+        console.log("correto: " + correctAnswers);
     }
     else {
         // Deixa vermelha a alternativa incorreta
         element.classList.add("wrong");
+        // Adiciona um indicador de marca incorreta
+        updateAnswersIndicator("wrong");
 
         // Caso a pessoa erre a questão, mostrará a correta com a cor verde
        const optionLen = optionContainer.children.length;
@@ -83,7 +95,7 @@ function getResult(element){
            }
        }     
     }
-
+    attempt++;
     unclickableOptions();
 }
 
@@ -95,12 +107,47 @@ function unclickableOptions(){
     }
 }
 
+function answersIndicator(){
+    answersIndicatorContainer.innerHTML = '';
+    const totalQuestion = jogosprt.length;
+    for(let i=0; i<totalQuestion; i++){
+        const indicator = document.createElement("div");
+        answersIndicatorContainer.appendChild(indicator);
+    }
+}
+function updateAnswersIndicator(markType){
+    answersIndicatorContainer.children[questionCounter-1].classList.add(markType)
+}
+
 function next(){
     if(questionCounter === jogosprt.length){
         console.log("Fim do Game");
+        jogosprtOver();
     } else {
         getNewQuestion();
     }
+}
+
+function jogosprtOver(){
+    quizBox.classList.add("hide");
+    // Para mostrar o resultado
+    resultBox.classList.remove("hide");
+    quizResult();
+}
+
+// Pega o resultado do quiz
+function quizResult(){
+    resultBox.querySelector(".total-question").innerHTML = jogosprt.length;
+    resultBox.querySelector(".total-attempt").innerHTML = attempt;
+    resultBox.querySelector(".total-correct").innerHTML = correctAnswers;
+    resultBox.querySelector(".total-wrong").innerHTML = attempt - correctAnswers;
+    const percentage = (correctAnswers/jogosprt.length)*100;
+    resultBox.querySelector(".percentage").innerHTML = percentage.toFixed() + "%";
+    resultBox.querySelector(".total-score").innerHTML = correctAnswers + " / " + jogosprt.length;
+}
+
+function tryAgainQuiz() {
+    
 }
 
 window.onload = function(){
@@ -108,6 +155,6 @@ window.onload = function(){
     setAvailableQuestions();
     // Chamada da função getNewQuestion();
     getNewQuestion();
-
-
+    // para criar os indicadores das respostas
+    answersIndicator();
 }
