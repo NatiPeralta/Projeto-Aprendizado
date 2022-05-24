@@ -4,9 +4,9 @@
 }
 
 body{
-    background-image: url("../img/Banner.png");
+    background-image: url("../img/fundo.png");
     background-position: 55%;
-    color: white;
+    color: #44089B;
     font-family: arial;
 }
 
@@ -16,17 +16,25 @@ input{
     width: 400px;
     margin: 10px;
     border-radius: 30px;
-    border: 1px solid #00A89A;
+    border: 1px solid #44089B;
     font-size: 16pt;
     padding: 10px 20px;
     background-color: rgba(255,255,255,0.01);
-    color: white;
+    color: #44089B;
     outline: none;
+}
+
+#dt {
+    color: #44089B;
+}
+
+#input-btn{
+    color: #fff;
 }
 
 div#corpo-form{
     width: 420px;
-    margin: 130px auto 0px auto;
+    margin: 150px auto 0px auto;
 }
 
 div#corpo-form-cad{
@@ -39,7 +47,7 @@ div#corpo-form h1, div#corpo-form-cad h1{
 }
 
 a{
-    color: white;
+    color: #44089B;
     text-decoration: none;
     text-align: center;
     display: block;
@@ -50,23 +58,23 @@ a:hover{
 }
 
 input[type=submit]{
-    background-color: #00A89A;
+    background-color: #44089B;
     border: none;
     cursor: pointer;
 }
 
 ::-webkit-input-placeholder {
-    color: #fff;
+    color: #44089B;
 }
 
 :-moz-placeholder {
-    color: #fff;
+    color: #44089B;
 }
 
 ::-moz-placeholder {
-    color: #fff;
+    color: #44089B;
 }
 
 :-ms-input-placeholder {
-    color: #fff;
+    color: #44089B;
 }
