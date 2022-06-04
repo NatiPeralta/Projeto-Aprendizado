@@ -14,7 +14,7 @@
                 <div class="logo">
                    <a href="index.html"><img src="./img/logo.png" width="150" height="60" /></a>
                 </div>
-                <div class="login">
+                <div class="login">              
                     <a href="login.php">Entrar</a>
                     <a href="cadastrar.php">Cadastrar</a>
                  </div>

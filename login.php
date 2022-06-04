@@ -14,11 +14,22 @@
     <h1>Entrar</h1>
     <form method="POST">
         <input type="email" placeholder="E-mail" name="email">
-        <input type="password" placeholder="Senha" name="senha">
+        <input type="password" placeholder="Senha" name="senha" id="senha">
+        <button type="button" onclick="mostrarSenha()" id="senha"> Mostrar Senha </button>
         <input id="input-btn" type="submit" value="Entrar">
         <a href="cadastrar.php">Ainda não é inscrito? <strong>Cadastre-se!</strong></a>
     </form>
 </div>
+<script>
+    function mostrarSenha(){
+        var tipo = document.getElementById("senha");
+        if(tipo.type == "password") {
+            tipo.type = "text";    
+        }else{
+            tipo.type = "password";      
+        }
+    }
+</script>
 <?php
 if(isset($_POST['email']))
 {

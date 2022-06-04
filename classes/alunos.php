@@ -22,7 +22,7 @@ Class dadosAluno
         $sql = $pdo->prepare("SELECT id FROM aluno WHERE email = :e");
         $sql->bindValue(":e",$email);
         $sql->execute();
-        if($sql->rowCount() > 0)
+        if($sql->rowCount() > 0) //rowCount verifica se usuario existe ou nao
         {
             return false; //ja esta cadastrada
         }

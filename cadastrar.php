@@ -44,6 +44,8 @@ if(isset($_POST['nome']))
                     ?>
                     <div id="msg-sucesso">
                     Cadastrado com sucesso! Acesse para entrar!
+                    break;
+                    <a href="login.php">Entrar</a>
                     </div>
                     <?php
                 }

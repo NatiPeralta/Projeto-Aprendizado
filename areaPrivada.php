@@ -51,6 +51,15 @@
     </main> 
     <div class="col-100">
         <div class="content texto-destaque">
+            <?php
+            if(isset($_POST['nome'])){
+                echo "Seja muito bem-vindo " . $_POST['nome'] . "<br>";
+                echo "<a href='sair.php'>Sair</a><br>";
+            }else{
+                echo "<a href='cadastrar.php'>Cadastrar</a>";
+            }
+            ?>
+
             <h1>Seja muito bem-vindo!</h1>
             <p>É isso mesmo! Por aqui você consegue ler e aprender sobre qualquer matéria da sua escola
                 enquanto joga um quiz de perguntas e respostas. Quanto mais respostas você acertar, mais figurinhas você ganha!
