@@ -18,6 +18,13 @@
         <button type="button" onclick="mostrarSenha()" id="olho"></button>
         <input id="input-btn" type="submit" value="Entrar">
         <a href="cadastrar.php">Ainda não é inscrito? <strong>Cadastre-se!</strong></a>
+        <div class="bloco-logos">
+        <div class="content">
+            <div class="col-4">
+                <img alt="logo" title="logo" src="img/logo-2.png" width="160" height="80"/>
+            </div>
+        </div>
+    </div>
     </form>
 </div>
 <script>

@@ -12,7 +12,7 @@
         <main>
             <div class="header-1">
                 <div class="logo">
-                   <a href="index.html"><img src="./img/logo.png" width="150" height="60" /></a>
+                   <a href="index.php"><img src="./img/logo.png" width="150" height="60" /></a>
                 </div>
                 <div class="login">              
                     <a href="login.php">Entrar</a>
@@ -148,10 +148,17 @@
     <div class="col-100 bloco-logos">
         <div class="content">
             <div class="col-4">
-                <img alt="logo" title="logo" src="img/logo-2.png" width="160" height="80"/>
+                <img id="back-to-top" alt="up" title="up" src="img/up.png"/>
             </div>
         </div>
     </div>
+    <script>
+        var btn = document.querySelector("#back-to-top");
+
+        btn.addEventListener("click", function() {
+            window.scrollTo(0, 0);
+        });
+    </script>
     <footer>
         <div class="col-100 footer">
             <div class="content">

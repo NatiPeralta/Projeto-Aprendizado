@@ -22,7 +22,7 @@
         <main>
             <div class="header-1">
                 <div class="logo">
-                   <a href="index.html"><img src="./img/logo.png" width="150" height="60" /></a>
+                   <a href="index.php"><img src="./img/logo.png" width="150" height="60" /></a>
                 </div>
                 <div class="login">
                     <a href="perfil-user.php"> Meu Perfil </a>
