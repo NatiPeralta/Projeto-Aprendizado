@@ -19,6 +19,7 @@
         <input type="password" name="senha" placeholder="Senha" maxlength="15">
         <input type="password" name="confSenha" placeholder="Confirmar Senha" maxlength="15">
         <input id="input-btn" type="submit" value="Cadastrar">
+        <a href="login.php">Já é inscrito? <strong>Faça seu Login aqui!</strong></a>
         <input type="hidden" name="acao" value="cadastrar">
     </form>
 </div>
@@ -43,9 +44,7 @@ if(isset($_POST['nome']))
                 {
                     ?>
                     <div id="msg-sucesso">
-                    Cadastrado com sucesso! Acesse para entrar!
-                    break;
-                    <a href="login.php">Entrar</a>
+                    Cadastrado com sucesso!
                     </div>
                     <?php
                 }

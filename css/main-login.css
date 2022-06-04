@@ -33,13 +33,28 @@ input{
 }
 
 button {
-    color: #44089B;
     background-color: #fff;
-    background-image: ('');
-    border: 1px solid #44089B;
+    background-image: url('../img/eye-closed.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
     border-radius: 30px;
-    height: 30px;
-    width: 170px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 56%;
+    left: 63%;
+    background-color: rgba(255,255,255,0.01);
+}
+
+button:active{
+    background-image: url('../img/eye-open.jfif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(255,255,255,0.01);
+    animation: spin 3s linear infinite;
+    cursor: pointer;
 }
 
 div#corpo-form{
