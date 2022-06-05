@@ -40,32 +40,6 @@
             </div>
         </main>    
 </nav>
-    <!--   <div class="col-100">
-                <div class="content texto-destaque">
-                <h1>Seja muito bem-vindo(a), </?php echo $nomeUser; ?>!</h1>
-                    <p id="txt-private">O que você deseja fazer agora?</p>
-
-                    <div class="col-2 bloco-texto">
-                        <a href="jogos.html"><img src="./img/game.png"></a>
-                        <h3><b>Jogue nosso quiz</b></h3>
-                        <p>Aqui você consegue aprender enquanto se diverte
-                        com os nossos jogos</p>
-                    </div>
-                    <div class="col-2 bloco-texto">
-                        <img src="./img/book.png">
-                        <h3><b>Adquire conhecimento</b></h3>
-                        <p>Temos todo o material necessário para você se preparar antes de encarar
-                        nossos jogos de perguntas e respostas</p>
-                    </div>
-                    <div class="col-2 bloco-texto">
-                        <a href="figurinhas.html"><img src="./img/champion.png"></a>
-                        <h3><b>Ganhe prêmios</b></h3>
-                        <p>Quanto mais perguntas você acertar, mais figurinhas você ganha.
-                        Venha completar sua coleção!</p>
-                    </div>
-                </div>
-            </div>
-    -->      
     <script type="text/javascript" src="./js/jquery.js"></script>
     <script type="text/javascript" src="./js/jquery-migrate.js"></script>
     <script type="text/javascript" src="./js/slick.min.js"></script>
