@@ -1,3 +1,8 @@
+<?php
+session_start();
+include 'areaPrivada.php';
+?>
+
 <html>
 
 <head>
@@ -8,30 +13,17 @@
 </head>
 
 <body>
-    <header class="menu-principal">
-        <main>
-            <div class="header-1">
-                <div class="logo">
-                   <a href="index.php"><img src="./img/logo.png" width="150" height="60" /></a>
-                </div>
-                <div class="login">
-                    <a href="login.php">Entrar</a>
-                    <a href="cadastrar.php">Cadastrar</a>
-                 </div>
-            </div>
-        </main>    
-    </header>  
     <main class="col-100 menu-urls">
         <div class="header-2">
             <div class="menu">
                 <ul>
-                    <li><a href="portugues.html">Português</a></li>
-                    <li><a href="ingles.html">Inglês</a></li>
-                    <li><a href="ciencias.html">Ciências</a></li>
-                    <li class="active"><a href="historia.html">História</a></li>
-                    <li><a href="geografia.html">Geografia</a></li>
-                    <li><a href="matematica.html">Matemática</a></li>
-                    <li><a href="filosofia.html">Filosofia</a></li>
+                    <li><a href="portugues.php">Português</a></li>
+                    <li><a href="ingles.php">Inglês</a></li>
+                    <li><a href="ciencias.php">Ciências</a></li>
+                    <li class="active"><a href="historia.php">História</a></li>
+                    <li><a href="geografia.php">Geografia</a></li>
+                    <li><a href="matematica.php">Matemática</a></li>
+                    <li><a href="filosofia.php">Filosofia</a></li>
                 </ul>
             </div>
             <div class="busca">

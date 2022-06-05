@@ -46,7 +46,7 @@ if(isset($_POST['email']))
             if($u->logar($email,$senha))
             {
                 //aqui entra na area privada (SESSAO)
-                header("location: areaPrivada.php");
+                header("location: index.php");
             }
             else
             {

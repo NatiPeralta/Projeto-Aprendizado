@@ -1,3 +1,8 @@
+<?php
+session_start();
+include 'areaPrivada.php';
+?>
+
 <html>
 
 <head>
@@ -8,30 +13,17 @@
 </head>
 
 <body>
-    <header class="menu-principal">
-        <main>
-            <div class="header-1">
-                <div class="logo">
-                   <a href="index.php"><img src="./img/logo.png" width="150" height="60" /></a>
-                </div>
-                <div class="login">
-                    <a href="login.php">Entrar</a>
-                    <a href="cadastrar.php">Cadastrar</a>
-                 </div>
-            </div>
-        </main>    
-    </header>  
     <main class="col-100 menu-urls">
         <div class="header-2">
             <div class="menu">
                 <ul>
-                    <li><a href="portugues.html">Português</a></li>
-                    <li><a href="ingles.html">Inglês</a></li>
-                    <li><a href="ciencias.html">Ciências</a></li>
-                    <li><a href="historia.html">História</a></li>
-                    <li><a href="geografia.html">Geografia</a></li>
-                    <li><a href="matematica.html">Matemática</a></li>
-                    <li><a href="filosofia.html">Filosofia</a></li>
+                    <li><a href="portugues.php">Português</a></li>
+                    <li><a href="ingles.php">Inglês</a></li>
+                    <li><a href="ciencias.php">Ciências</a></li>
+                    <li><a href="historia.php">História</a></li>
+                    <li><a href="geografia.php">Geografia</a></li>
+                    <li><a href="matematica.php">Matemática</a></li>
+                    <li><a href="filosofia.php">Filosofia</a></li>
                 </ul>
             </div>
             <div class="busca">
@@ -54,19 +46,19 @@
             </p>
 
             <div class="col-2 bloco-texto">
-                <a href="jogos.html"><img src="./img/game.png"></a>
+                <a href="jogos.php"><img src="./img/game.png"></a>
                 <h3><b>Jogue nosso quiz</b></h3>
                 <p>Aqui você consegue aprender enquanto se diverte
                 com os nossos jogos</p>
             </div>
             <div class="col-2 bloco-texto">
-                <a href="index.html"><img src="./img/book.png"></a>
+                <a href="index.php"><img src="./img/book.png"></a>
                 <h3><b>Adquire conhecimento</b></h3>
                 <p>Temos todo o material necessário para você se preparar antes de encarar
                 nossos jogos de perguntas e respostas</p>
             </div>
             <div class="col-2 bloco-texto">
-                <a href="figurinhas.html"><img src="./img/champion.png"></a>
+                <a href="figurinhas.php"><img src="./img/champion.png"></a>
                 <h3><b>Ganhe prêmios</b></h3>
                 <p>Quanto mais perguntas você acertar, mais figurinhas você ganha.
                 Venha completar sua coleção!</p>
