@@ -1,7 +1,15 @@
 <?php
 
     session_start();
-    if(!isset($_SESSION['id']))
+    if(isset($_SESSION['id']) && !empty($_SESSION['id'])){
+        require_once 'CLASSES/alunos.php';
+        $u = new dadosAluno;
+        $u->conectar("projeto","localhost","root","");
+
+        $listLogged = $u->logged($_SESSION['id']);
+
+        $nomeUser = $listLogged['nome'];
+    }else
     {
         header("location: login.php");
         exit;
@@ -51,22 +59,8 @@
     </main> 
     <div class="col-100">
         <div class="content texto-destaque">
-            <?php
-            if(isset($_POST['nome'])){
-                echo "Seja muito bem-vindo " . $_POST['nome'] . "<br>";
-                echo "<a href='sair.php'>Sair</a><br>";
-            }else{
-                echo "<a href='cadastrar.php'>Cadastrar</a>";
-            }
-            ?>
-
-            <h1>Seja muito bem-vindo!</h1>
-            <p>É isso mesmo! Por aqui você consegue ler e aprender sobre qualquer matéria da sua escola
-                enquanto joga um quiz de perguntas e respostas. Quanto mais respostas você acertar, mais figurinhas você ganha!
-            </p>
-            <p>
-                <a href="./figurinhas.html">Clique aqui</a> para saber mais!
-            </p>
+        <h1>Seja muito bem-vindo(a), <?php echo $nomeUser; ?>!</h1>
+            <p id="txt-private">O que você deseja fazer agora?</p>
 
             <div class="col-2 bloco-texto">
                 <a href="jogos.html"><img src="./img/game.png"></a>

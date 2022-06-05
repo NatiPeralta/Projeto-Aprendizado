@@ -1,13 +1,31 @@
-<html>
+<html lang="pt-br">
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
     <title>Projeto Aprendizado</title>
 </head>
 
 <body>
+<?php
+if(isset($_SESSION['id']) && !empty($_SESSION['id'])){
+    require_once 'CLASSES/alunos.php';
+    $u = new dadosAluno;
+    $u->conectar("projeto","localhost","root","");
+
+    $listLogged = $u->logged($_SESSION['id']);
+
+    $nomeUser = $listLogged['nome'];
+}else
+{
+    header("location: login.php");
+    exit;
+}
+include 'areaPrivada.php';
+?>
+
     <header class="menu-principal">
         <main>
             <div class="header-1">
@@ -144,21 +162,6 @@
                     </div>
                 </div>
         </div>
-                
-    <div class="col-100 bloco-logos">
-        <div class="content">
-            <div class="col-4">
-                <img id="back-to-top" alt="up" title="up" src="img/up.png"/>
-            </div>
-        </div>
-    </div>
-    <script>
-        var btn = document.querySelector("#back-to-top");
-
-        btn.addEventListener("click", function() {
-            window.scrollTo(0, 0);
-        });
-    </script>
     <footer>
         <div class="col-100 footer">
             <div class="content">

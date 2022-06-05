@@ -42,16 +42,18 @@ Class dadosAluno
     {
         global $pdo;
         //verificar se o email e senha estao cadastrados, se sim
-        $sql = $pdo->prepare("SELECT id FROM aluno WHERE email = :e AND senha = :s");
+        $sql = $pdo->prepare("SELECT id, nome FROM aluno WHERE email = :e AND senha = :s");
         $sql->bindValue(":e",$email);
         $sql->bindValue(":s",md5($senha));
         $sql->execute();
         if($sql->rowCount() > 0)
         {
             //entrar no sistema (sessao)
-            $dado = $sql->fetch();
+            $dado = $sql->fetch(PDO::FETCH_ASSOC);
+
             session_start();
             $_SESSION['id'] = $dado['id'];
+            $_SESSION['nome'] = $dado['nome'];
             return true; //logado com sucesso
         }
         else
@@ -59,5 +61,20 @@ Class dadosAluno
             return false; //nao foi possivel logar
         }
 
+    }
+    public function logged($id){
+        global $pdo;
+
+        $array = array();
+
+        $sql = "SELECT nome FROM aluno WHERE id = :id";
+        $sql = $pdo->prepare($sql);
+        $sql->bindValue("id", $id);
+        $sql->execute();
+
+        if($sql->rowCount() > 0){
+            $array = $sql->fetch();
+        }
+        return $array;
     }
 }
