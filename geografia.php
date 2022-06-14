@@ -41,68 +41,41 @@ include 'areaPrivada.php';
     <div class="col-100 bloco-imagens-texto">
         <div class="content" style="margin-left: 17%; float: left;">
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/Portugues.png">
-                <p><b>Português</b></p>
-                <p>Tudo o que você precisa saber sobre a matéria está aqui. Venha explorar essa jornada!
+                <img src="./img/fuso.png">
+                <p><b>Fuso Horário</b></p>
+                <p>A Terra se divide em 24 fusos horários, e cada um deles corresponde a um intervalo de 15°.
                 </p>
                 <p>
                     <a href="./portugues.html">Clique aqui</a> para saber mais!
                 </p>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/Ingles.png">
-                <p><b>Inglês</b></p>
-                <p>O Inglês é uma língua extremamente importante e conhecer o idioma tornou-se fundamental.
+                <img src="./img/elementos.png">
+                <p><b>Elementos Climáticos</b></p>
+                <p>Os elementos climáticos são aqueles que atuam na atmosfera e são modificados pelos fatores de influência.
                 </p>
                 <p>
                     <a href="./ingles.html">Clique aqui</a> e aprenda!
                 </p>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/Ciencias.png">
-                <p><b>Ciências</b></p>
-                <p>Venha explorar um mundo de novas descobertas através do nosso material.
+                <img src="./img/agua.png">
+                <p><b>Água Superficial e Subterrânea</b></p>
+                <p>As águas superficiais são aquelas que brotam pela superfície terrestre, escoando numa formação inicial em termos de mina.
                 </p>
                 <p>
-                    <a href="./ciencias.html">Clique aqui</a> para embarcar nessa aventura!
+                    <a href="./ciencias.html">Clique aqui</a> para entender melhor!
                 </p>
             </div>
         </div>
         <div class="content" style="margin-left: 17%; float: left;">
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/História.png">
-                <p><b>História</b></p>
-                <p>Quer viajar para o passado? Venha aprender sobre os acontecimentos ao longo do tempo.
+                <img src="./img/hidrografia.png">
+                <p><b>Hidrografia</b></p>
+                <p>Os mares e os oceanos, situados principalmente no hemisfério sul, correspondem a 71% da superfície do globo, e os rios e lagoas a menos de 3%.
                 </p>
                 <p>
-                    <a href="./historia.html">Clique aqui</a> para viajar no tempo!
-                </p>
-            </div>
-            <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/Geografia.png">
-                <p><b>Geografia</b></p>
-                <p>Aqui você verá tudo sobre o estudo da Terra e seus habitantes.
-                </p>
-                <p>
-                    <a href="./geografia.html">Clique aqui</a> para saber mais!
-                </p>
-            </div>
-            <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/Matematica.png">
-                <p><b>Matemática</b></p>
-                <p>Números, formas e cálculos de um jeito fácil e prático.
-                </p>
-                <p>
-                    <a href="./matematica.html">Clique aqui</a> para se aprofundar nessa aventura numérica!
-                </p>
-            </div>
-            <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/Filosofia.png">
-                <p><b>Filosofia</b></p>
-                <p>"Ser ou não ser, eis a questão", através do nosso material você entenderá sobre a filosofia do mundo.
-                </p>
-                <p>
-                    <a href="./filosofia.html">Clique aqui</a> para adquirir esse conhecimento!
+                    <a href="./historia.html">Clique aqui</a> para saber mais!
                 </p>
             </div>
         </div>

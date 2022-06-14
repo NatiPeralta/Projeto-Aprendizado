@@ -103,8 +103,8 @@ ul li.active a:hover {
 }
 
 .materia {
-    background-color: #547DA3;
-    color: #BCF2EE;
+    background-color: #ddefff;
+    color: rgb(15, 68, 65);
     height: 80px;
     text-align: center;
 }
@@ -177,7 +177,7 @@ ul li.active a:hover {
 
 .bloco-imagem {
     height: 340px;
-    background-color: #547DA3;
+    background-color: #ddefff;
     border: 1px solid rgb(15, 68, 65);
     padding-top: 15px;
     padding-bottom: 15px;
@@ -188,13 +188,13 @@ ul li.active a:hover {
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    color: #BCF2EE;
+    color: rgb(15, 68, 65);
 }
 
 .bloco-imagem p {
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    color: #BCF2EE;
+    color: rgb(15, 68, 65);
 }
 
 .bloco-imagem a {

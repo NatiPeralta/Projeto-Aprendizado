@@ -41,68 +41,50 @@ include 'areaPrivada.php';
     <div class="col-100 bloco-imagens-texto">
         <div class="content" style="margin-left: 17%; float: left;">
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/Portugues.png">
-                <p><b>Português</b></p>
-                <p>Tudo o que você precisa saber sobre a matéria está aqui. Venha explorar essa jornada!
+                <img src="./img/som.png">
+                <p><b>Som</b></p>
+                <p>O som é uma onda capaz de propagar-se pelo ar e por outros meios a partir da vibração de suas moléculas.
                 </p>
                 <p>
                     <a href="./portugues.html">Clique aqui</a> para saber mais!
                 </p>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/Ingles.png">
-                <p><b>Inglês</b></p>
-                <p>O Inglês é uma língua extremamente importante e conhecer o idioma tornou-se fundamental.
+                <img src="./img/heterocromia.png">
+                <p><b>Heterocromia</b></p>
+                <p>Heterocromia ou heterocromia ocular causado por um fator genético no qual o humano ou animal, possui um olho de cada cor.
                 </p>
                 <p>
-                    <a href="./ingles.html">Clique aqui</a> e aprenda!
+                    <a href="./ingles.html">Clique aqui</a> e veja mais sobre!
                 </p>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/Ciencias.png">
-                <p><b>Ciências</b></p>
-                <p>Venha explorar um mundo de novas descobertas através do nosso material.
+                <img src="./img/rochas.png">
+                <p><b>Formação de Rochas</b></p>
+                <p>Venha aprender sobre o Magma, uma substância responsável pela formaçã de rochas ígneas ou magmáticas.
                 </p>
                 <p>
-                    <a href="./ciencias.html">Clique aqui</a> para embarcar nessa aventura!
+                    <a href="./ciencias.html">Clique aqui</a> para entender melhor!
                 </p>
             </div>
         </div>
         <div class="content" style="margin-left: 17%; float: left;">
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/História.png">
-                <p><b>História</b></p>
-                <p>Quer viajar para o passado? Venha aprender sobre os acontecimentos ao longo do tempo.
+                <img src="./img/terra.png">
+                <p><b>Camadas da Terra</b></p>
+                <p>Existem três camadas que formam a composição da Terra e possuem características distintas entre si.
                 </p>
                 <p>
-                    <a href="./historia.html">Clique aqui</a> para viajar no tempo!
+                    <a href="./historia.html">Clique aqui</a> para saber tudo!
                 </p>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/Geografia.png">
-                <p><b>Geografia</b></p>
-                <p>Aqui você verá tudo sobre o estudo da Terra e seus habitantes.
+                <img src="./img/solar.png">
+                <p><b>Sistema Solar</b></p>
+                <p>O Sistema Solar é composto por oito planetas, conforme se considera hoje em dia, além de planetas anões e corpos celestes.
                 </p>
                 <p>
                     <a href="./geografia.html">Clique aqui</a> para saber mais!
-                </p>
-            </div>
-            <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/Matematica.png">
-                <p><b>Matemática</b></p>
-                <p>Números, formas e cálculos de um jeito fácil e prático.
-                </p>
-                <p>
-                    <a href="./matematica.html">Clique aqui</a> para se aprofundar nessa aventura numérica!
-                </p>
-            </div>
-            <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/Filosofia.png">
-                <p><b>Filosofia</b></p>
-                <p>"Ser ou não ser, eis a questão", através do nosso material você entenderá sobre a filosofia do mundo.
-                </p>
-                <p>
-                    <a href="./filosofia.html">Clique aqui</a> para adquirir esse conhecimento!
                 </p>
             </div>
         </div>

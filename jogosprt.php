@@ -8,32 +8,7 @@
 
         $nomeUser = $listLogged['nome'];
 ?>
-<?php
-if(isset($_POST['pontuacao']))
-{
-    $pontuacao = addslashes($_POST['pontuacao']);
 
-    if(!empty($pontuacao))
-    {
-        $u->conectar("projeto","localhost","root","");
-            if($u->jogar($id,$pontuacao))
-            {
-                $listPlacar = $u->placar($_SESSION['id'], $_SESSION['pontuacao']);
-
-                $pntUser = $listPlacar['pontuacao'];
-            }
-            else
-            {
-                ?>
-                <div class="msg-erro">
-                Não foi possível apresentar a pontuação.
-                </div>
-                <?php
-            }
-
-        }
-}
-?>
 <html>
     <head>
         <meta charset="utf-8">
@@ -67,7 +42,7 @@ if(isset($_POST['pontuacao']))
 
         <div class="result-box custom-box hide">
             <h1>Resultado do Quiz</h1>
-            <table>
+            <table method="POST">
                 <tr>
                     <td>Total de Questões</td>
                     <td><span class="total-question"></span></td>
@@ -78,7 +53,7 @@ if(isset($_POST['pontuacao']))
                 </tr>
                 <tr>
                     <td>Corretas</td>
-                    <td><span method="POST" name="pontuacao" class="total-correct"></span></td>
+                    <td><span name="pontuacao" class="total-correct"></span></td>
                 </tr>
                 <tr>
                     <td>Erradas</td>
@@ -94,14 +69,39 @@ if(isset($_POST['pontuacao']))
                 </tr>
                 <tr>
                     <td>Pontuação Total da <?php echo $nomeUser; ?></td>
-                    <td><?php echo $pntUser; ?></td>
+                    <td><span class="total-user"></span></td>
                 </tr>
             </table>
             <button type="button" class="btn" onclick="tryAgainQuiz()">Tentar Novamente</button>
             <button type="button" class="btn" onclick="goToHome()">Voltar ao Início</button>
         </div>
 
+<?php
+if(isset($_POST['pontuacao']))
+{
+    $pontuacao = addslashes($_POST['pontuacao']);
+
+    if(!empty($pontuacao))
+    {
+        $u->conectar("projeto","localhost","root","");
+        $listPlacar = $u->placar($_SESSION['id']);
+
+        $pntUser = $listPlacar['pontuacao'];
+            
+    }
+    else
+    {
+        ?>
+        <div class="msg-erro">
+        Não foi possível apresentar a pontuacao!
+        </div>
+        <?php
+    }
+}
+?>
+
 <script src="js/question.js"></script>
 <script src="js/app.js"></script>
+
 </body>
 </html>

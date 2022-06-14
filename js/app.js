@@ -14,6 +14,7 @@ let availableQuestions = [];
 let availableOptions = [];
 let correctAnswers = 0;
 let attempt = 0;
+let userAnswers = 0;
 
 // envia as perguntas para o Array availableQuestions
 function setAvailableQuestions(){
@@ -144,6 +145,7 @@ function quizResult(){
     const percentage = (correctAnswers/jogosprt.length)*100;
     resultBox.querySelector(".percentage").innerHTML = percentage.toFixed() + "%";
     resultBox.querySelector(".total-score").innerHTML = correctAnswers + " / " + jogosprt.length;
+    resultBox.querySelector(".total-user").innerHTML = userAnswers + correctAnswers;
 }
 
 function tryAgainQuiz() {

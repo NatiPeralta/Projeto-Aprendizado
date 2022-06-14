@@ -41,68 +41,41 @@ include 'areaPrivada.php';
     <div class="col-100 bloco-imagens-texto">
         <div class="content" style="margin-left: 17%; float: left;">
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/Portugues.png">
-                <p><b>Português</b></p>
-                <p>Tudo o que você precisa saber sobre a matéria está aqui. Venha explorar essa jornada!
+                <img src="./img/to-be.png">
+                <p><b>Verb to be</b></p>
+                <p>O verbo to be é um dos verbos mais utilizados da língua inglesa e pode ser traduzido como ser ou estar.
                 </p>
                 <p>
                     <a href="./portugues.html">Clique aqui</a> para saber mais!
                 </p>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/Ingles.png">
-                <p><b>Inglês</b></p>
-                <p>O Inglês é uma língua extremamente importante e conhecer o idioma tornou-se fundamental.
+                <img src="./img/present.png">
+                <p><b>Present Perfect</b></p>
+                <p>O present perfect é usado quando expressamos alguma ação no passado que tem repercussão no presente ou ainda continua no presente.
                 </p>
                 <p>
                     <a href="./ingles.html">Clique aqui</a> e aprenda!
                 </p>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/Ciencias.png">
-                <p><b>Ciências</b></p>
-                <p>Venha explorar um mundo de novas descobertas através do nosso material.
+                <img src="./img/possessive.png">
+                <p><b>Possessive Adjectives</b></p>
+                <p>Os possessive adjectives são uma classe de palavras responsável por modificar os substantivos, acrescentando-lhes características de propriedade ou posse.
                 </p>
                 <p>
-                    <a href="./ciencias.html">Clique aqui</a> para embarcar nessa aventura!
+                    <a href="./ciencias.html">Clique aqui</a> para saber mais!
                 </p>
             </div>
         </div>
         <div class="content" style="margin-left: 17%; float: left;">
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/História.png">
-                <p><b>História</b></p>
-                <p>Quer viajar para o passado? Venha aprender sobre os acontecimentos ao longo do tempo.
+                <img src="./img/there.png">
+                <p><b>There is and There are</b></p>
+                <p>Quando usar THERE IS e THERE ARE? Você vai ver que a diferença é simples e saberá como utilizá-los sem dificuldade.
                 </p>
                 <p>
-                    <a href="./historia.html">Clique aqui</a> para viajar no tempo!
-                </p>
-            </div>
-            <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/Geografia.png">
-                <p><b>Geografia</b></p>
-                <p>Aqui você verá tudo sobre o estudo da Terra e seus habitantes.
-                </p>
-                <p>
-                    <a href="./geografia.html">Clique aqui</a> para saber mais!
-                </p>
-            </div>
-            <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/Matematica.png">
-                <p><b>Matemática</b></p>
-                <p>Números, formas e cálculos de um jeito fácil e prático.
-                </p>
-                <p>
-                    <a href="./matematica.html">Clique aqui</a> para se aprofundar nessa aventura numérica!
-                </p>
-            </div>
-            <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/Filosofia.png">
-                <p><b>Filosofia</b></p>
-                <p>"Ser ou não ser, eis a questão", através do nosso material você entenderá sobre a filosofia do mundo.
-                </p>
-                <p>
-                    <a href="./filosofia.html">Clique aqui</a> para adquirir esse conhecimento!
+                    <a href="./historia.html">Clique aqui</a> para aprender sobre!
                 </p>
             </div>
         </div>

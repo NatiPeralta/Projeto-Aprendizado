@@ -77,31 +77,15 @@ Class dadosAluno
         }
             return $array;
     }
-    public function jogar($id, $pontuacao){
+
+    public function placar($id){
         global $pdo;
 
         $array = array();
 
-        $sql = "UPDATE aluno SET pontuacao WHERE id = :id";
+        $sql = "SELECT pontuacao FROM aluno WHERE id = :id";
         $sql = $pdo->prepare($sql);
         $sql->bindValue("id", $id);
-        $sql->bindValue("pnt", $pontuacao);
-        $sql->execute();
-
-        if($sql->rowCount() > 0){
-            $array = $sql->fetch();
-        }
-        return $array;
-    }
-    public function placar($id, $pontuacao){
-        global $pdo;
-
-        $array = array();
-
-        $sql = "SELECT id, nome, pontuacao FROM aluno WHERE id = :id AND pontuacao = :pnt";
-        $sql = $pdo->prepare($sql);
-        $sql->bindValue("id", $id);
-        $sql->bindValue("pnt", $pontuacao);
         $sql->execute();
 
         if($sql->rowCount() > 0){
