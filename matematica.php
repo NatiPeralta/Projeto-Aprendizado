@@ -40,69 +40,42 @@ include 'areaPrivada.php';
     </div>
     <div class="col-100 bloco-imagens-texto">
         <div class="content" style="margin-left: 17%; float: left;">
-            <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/Portugues.png">
-                <p><b>Português</b></p>
-                <p>Tudo o que você precisa saber sobre a matéria está aqui. Venha explorar essa jornada!
+        <div class="col-3 bloco-texto bloco-imagem">
+                <img src="./img/naturais.png">
+                <p><b>Números Naturais</b></p>
+                <p>O conjunto dos números naturais é formado por todos os números inteiros não negativos.
                 </p>
                 <p>
                     <a href="./portugues.html">Clique aqui</a> para saber mais!
                 </p>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/Ingles.png">
-                <p><b>Inglês</b></p>
-                <p>O Inglês é uma língua extremamente importante e conhecer o idioma tornou-se fundamental.
+                <img src="./img/multiplos.png">
+                <p><b>Múltiplos de um Número</b></p>
+                <p>Nesse conteúdo você aprenderá tudo sobre como encontrar o múltiplo de um número.
                 </p>
                 <p>
                     <a href="./ingles.html">Clique aqui</a> e aprenda!
                 </p>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/Ciencias.png">
-                <p><b>Ciências</b></p>
-                <p>Venha explorar um mundo de novas descobertas através do nosso material.
+                <img src="./img/divisao.png">
+                <p><b>Algoritmo da Divisão</b></p>
+                <p>Dizemos que um número é divisor de outro quando a divisão é exata, ou seja, não há resto.
                 </p>
                 <p>
-                    <a href="./ciencias.html">Clique aqui</a> para embarcar nessa aventura!
+                    <a href="./ciencias.html">Clique aqui</a> para entender melhor sobre!
                 </p>
             </div>
         </div>
         <div class="content" style="margin-left: 17%; float: left;">
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/História.png">
-                <p><b>História</b></p>
-                <p>Quer viajar para o passado? Venha aprender sobre os acontecimentos ao longo do tempo.
+                <img src="./img/porcentagem.png">
+                <p><b>Porcentagem</b></p>
+                <p>Representa uma razão cujo denominador é igual a 100.
                 </p>
                 <p>
-                    <a href="./historia.html">Clique aqui</a> para viajar no tempo!
-                </p>
-            </div>
-            <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/Geografia.png">
-                <p><b>Geografia</b></p>
-                <p>Aqui você verá tudo sobre o estudo da Terra e seus habitantes.
-                </p>
-                <p>
-                    <a href="./geografia.html">Clique aqui</a> para saber mais!
-                </p>
-            </div>
-            <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/Matematica.png">
-                <p><b>Matemática</b></p>
-                <p>Números, formas e cálculos de um jeito fácil e prático.
-                </p>
-                <p>
-                    <a href="./matematica.html">Clique aqui</a> para se aprofundar nessa aventura numérica!
-                </p>
-            </div>
-            <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/Filosofia.png">
-                <p><b>Filosofia</b></p>
-                <p>"Ser ou não ser, eis a questão", através do nosso material você entenderá sobre a filosofia do mundo.
-                </p>
-                <p>
-                    <a href="./filosofia.html">Clique aqui</a> para adquirir esse conhecimento!
+                    <a href="./historia.html">Clique aqui</a> para saber mais!
                 </p>
             </div>
         </div>

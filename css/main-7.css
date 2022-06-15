@@ -103,7 +103,7 @@ ul li.active a:hover {
 }
 
 .materia {
-    background-color: #FFEBEB;
+    background-color: #fff5f5;
     color: #800000;
     height: 80px;
     text-align: center;
@@ -177,7 +177,7 @@ ul li.active a:hover {
 
 .bloco-imagem {
     height: 340px;
-    background-color: #FFEBEB;
+    background-color: #fff5f5;
     border: 1px solid #800000;
     padding-top: 15px;
     padding-bottom: 15px;
