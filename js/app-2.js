@@ -1,5 +1,3 @@
-
-
 const questionNumber = document.querySelector(".question-number");
 const questionText = document.querySelector(".question-text");
 const optionContainer = document.querySelector(".option-container");
@@ -17,9 +15,9 @@ let attempt = 0;
 
 // envia as perguntas para o Array availableQuestions
 function setAvailableQuestions(){
-    const totalQuestion = jogosprt.length;
+    const totalQuestion = jogosing.length;
     for(let i=0; i<totalQuestion; i++){
-        availableQuestions.push(jogosprt[i])
+        availableQuestions.push(jogosing[i])
     }
 }
 
@@ -27,7 +25,7 @@ function setAvailableQuestions(){
 function getNewQuestion(){
     
     // Envio dos números de questões
-    questionNumber.innerHTML = "Pergunta " + (questionCounter + 1) + " de " + jogosprt.length;
+    questionNumber.innerHTML = "Pergunta " + (questionCounter + 1) + " de " + jogosing.length;
         
     // Envio das questões
     // Chamada da questão aleatória
@@ -109,7 +107,7 @@ function unclickableOptions(){
 
 function answersIndicator(){
     answersIndicatorContainer.innerHTML = '';
-    const totalQuestion = jogosprt.length;
+    const totalQuestion = jogosing.length;
     for(let i=0; i<totalQuestion; i++){
         const indicator = document.createElement("div");
         answersIndicatorContainer.appendChild(indicator);
@@ -120,7 +118,7 @@ function updateAnswersIndicator(markType){
 }
 
 function next(){
-    if(questionCounter === jogosprt.length){
+    if(questionCounter === jogosing.length){
         jogosprtOver();
     } else {
         getNewQuestion();
@@ -136,12 +134,12 @@ function jogosprtOver(){
 
 // Pega o resultado do quiz
 function quizResult(){
-    resultBox.querySelector(".total-question").innerHTML = jogosprt.length;
+    resultBox.querySelector(".total-question").innerHTML = jogosing.length;
     resultBox.querySelector(".total-attempt").innerHTML = attempt;
     resultBox.querySelector(".total-wrong").innerHTML = attempt - correctAnswers;
-    const percentage = (correctAnswers/jogosprt.length)*100;
+    const percentage = (correctAnswers/jogosing.length)*100;
     resultBox.querySelector(".percentage").innerHTML = percentage.toFixed() + "%";
-    resultBox.querySelector(".total-score").innerHTML = correctAnswers + " / " + jogosprt.length;
+    resultBox.querySelector(".total-score").innerHTML = correctAnswers + " / " + jogosing.length;
     resultBox.querySelector(".total-user").innerHTML = correctAnswers;
 }
 
@@ -175,5 +173,5 @@ function startQuiz(){
 }
 
 window.onload = function (){
-    homeBox.querySelector(".total-question").innerHTML = jogosprt.length;
+    homeBox.querySelector(".total-question").innerHTML = jogosing.length;
 }

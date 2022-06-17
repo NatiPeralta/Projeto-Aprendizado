@@ -72,7 +72,7 @@ include 'areaPrivada.php';
                 <a href="jogosprt.php"><img src="./img/Quiz-Port.png"></a>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <a href=""><img src="./img/Quiz-Ing.png"></a>
+                <a href="jogosing.php"><img src="./img/Quiz-Ing.png"></a>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
                 <a href=""><img src="./img/Quiz-Cien.png"></a>

@@ -17,13 +17,13 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Quiz Português</title>
+        <title>Quiz Inglês</title>
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
         <div class="home-box custom-box">
             <h3>Instruções:</h3>
-            <p>Número total de questões: <span class="total-question">5</span></p>
+            <p>Número total de questões: <span class="total-question"></span></p>
             <button type="button" class="btn" onclick="startQuiz()">Jogar!</button>
         </div>
 
@@ -76,8 +76,8 @@
             <button type="button" class="btn" onclick="goToHome()">Tentar Novamente</button>
         </div>
 
-<script src="js/question.js"></script>
-<script src="js/app.js"></script>
+<script src="js/question-2.js"></script>
+<script src="js/app-2.js"></script>
 
 </body>
 </html>
