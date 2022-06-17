@@ -12,16 +12,13 @@
 
         $pntUser = $listPlacar['pontuacao'];
 
-        
-        
-
             
 ?>
 
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Quiz Game</title>
+        <title>Quiz Português</title>
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
@@ -29,6 +26,8 @@
             <h3>Instruções:</h3>
             <p>Número total de questões: <span class="total-question"></span></p>
             <button type="button" class="btn" onclick="startQuiz()">Jogar!</button>
+            <a href="/highscores.html" id="highscore-btn" class="btn">High
+            Scores<i class="fas fa-crown"></i></a>
         </div>
 
         <div class="quiz-box custom-box hide">

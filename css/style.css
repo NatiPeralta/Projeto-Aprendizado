@@ -241,3 +241,22 @@ body {
 .result-box .btn{
     margin-right: 20px;
 }
+
+.btn {
+    text-align: center;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #cccccc;
+    transition: transform 150ms;
+    transform: scale(1.03);
+}
+
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
