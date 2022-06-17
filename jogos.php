@@ -75,19 +75,19 @@ include 'areaPrivada.php';
                 <a href="jogosing.php"><img src="./img/Quiz-Ing.png"></a>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <a href=""><img src="./img/Quiz-Cien.png"></a>
+                <a href="jogoscien.php"><img src="./img/Quiz-Cien.png"></a>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <a href=""><img src="./img/Quiz-His.png"></a>
+                <a href="jogoshis.php"><img src="./img/Quiz-His.png"></a>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <a href=""><img src="./img/Quiz-Geo.png"></a>
+                <a href="jogosgeo.php"><img src="./img/Quiz-Geo.png"></a>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <a href=""><img src="./img/Quiz-Mat.png"></a>
+                <a href="jogosmat.php"><img src="./img/Quiz-Mat.png"></a>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <a href=""><img src="./img/Quiz-Filo.png"></a>
+                <a href="jogosfilo.php"><img src="./img/Quiz-Filo.png"></a>
             </div>
         </div>
     </div>

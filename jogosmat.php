@@ -17,7 +17,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Quiz Português</title>
+        <title>Quiz Matemática</title>
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
@@ -76,8 +76,8 @@
             <button type="button" class="btn" onclick="goToHome()">Tentar Novamente</button>
         </div>
 
-<script src="js/question.js"></script>
-<script src="js/app.js"></script>
+<script src="js/question-6.js"></script>
+<script src="js/app-6.js"></script>
 
 </body>
 </html>
