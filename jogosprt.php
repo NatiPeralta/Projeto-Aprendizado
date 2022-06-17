@@ -27,7 +27,7 @@
             <p>Número total de questões: <span class="total-question"></span></p>
             <button type="button" class="btn" onclick="startQuiz()">Jogar!</button>
             <a href="/highscores.html" id="highscore-btn" class="btn">High
-            Scores<i class="fas fa-crown"></i></a>
+            Scores</a>
         </div>
 
         <div class="quiz-box custom-box hide">
