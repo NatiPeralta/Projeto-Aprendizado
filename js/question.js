@@ -26,5 +26,8 @@ const jogosprt = [
     q:'Assinale a alternativa em que uma forma verbal foi empregada incorretamente:',
     options:['Se a testemunha depor favoravelmente, Harry Potter foi absolvido.', 'O superior interveio na discussão, evitando a briga.', 'Ele terá o filho, se vier a São Paulo.', 'Quando você vier a Campinas, ficará extasiado.'],
     answer:0
-},
-]
+}
+
+]  
+
+

@@ -1,5 +1,4 @@
 
-
 const questionNumber = document.querySelector(".question-number");
 const questionText = document.querySelector(".question-text");
 const optionContainer = document.querySelector(".option-container");
@@ -14,7 +13,6 @@ let availableQuestions = [];
 let availableOptions = [];
 let correctAnswers = 0;
 let attempt = 0;
-let userAnswers = 0;
 
 // envia as perguntas para o Array availableQuestions
 function setAvailableQuestions(){
@@ -52,9 +50,9 @@ function getNewQuestion(){
     for(let i=0; i<optionLen; i++){
         // alternativas aleatórias
         const optionIndex = availableOptions[Math.floor(Math.random() * availableOptions.length)];
-        // Pega a posição do 'optionIndex' do availableOptions
+        // Pega a posição do 'optionIndex' do availableOptions Array
         const index2 = availableOptions.indexOf(optionIndex);
-        // Remove 'optionIndex' do availableOptions, para não repetir
+        // Remove 'optionIndex' do availableOptions Array, para não repetir
         availableOptions.splice(index2,1);
         const option = document.createElement("div");
         option.innerHTML = currentQuestion.options[optionIndex];
@@ -80,7 +78,6 @@ function getResult(element){
         // Adiciona um indicador de marca correta
         updateAnswersIndicator("correct");
         correctAnswers++;
-        console.log("correto: " + correctAnswers);
     }
     else {
         // Deixa vermelha a alternativa incorreta
@@ -122,7 +119,6 @@ function updateAnswersIndicator(markType){
 
 function next(){
     if(questionCounter === jogosprt.length){
-        console.log("Fim do Game");
         jogosprtOver();
     } else {
         getNewQuestion();
@@ -140,23 +136,51 @@ function jogosprtOver(){
 function quizResult(){
     resultBox.querySelector(".total-question").innerHTML = jogosprt.length;
     resultBox.querySelector(".total-attempt").innerHTML = attempt;
-    resultBox.querySelector(".total-correct").innerHTML = correctAnswers;
     resultBox.querySelector(".total-wrong").innerHTML = attempt - correctAnswers;
     const percentage = (correctAnswers/jogosprt.length)*100;
     resultBox.querySelector(".percentage").innerHTML = percentage.toFixed() + "%";
     resultBox.querySelector(".total-score").innerHTML = correctAnswers + " / " + jogosprt.length;
-    resultBox.querySelector(".total-user").innerHTML = userAnswers + correctAnswers;
+    resultBox.querySelector(".total-user").innerHTML = correctAnswers;
 }
 
-function tryAgainQuiz() {
-    
+function resetQuiz(){
+     questionCounter = 0;
+     correctAnswers = 0;
+     attempt = 0;
 }
 
-window.onload = function(){
+function tryAgainQuiz(){
+    // resultBox
+    resultBox.classList.add("hide");
+    // show the quizBox
+    quizBox.classList.remove("hide");
+    resetQuiz();
+    startQuiz();
+}
+
+function goToHome(){
+    // hide result box
+    resultBox.classList.add("hide");
+    // show home box
+    homeBox.classList.remove("hide");
+    resetQuiz();
+}
+
+// Iniciando o jogo
+
+function startQuiz(){
+    // hide home box
+    homeBox.classList.add("hide");
+    // show quiz box
+    quizBox.classList.remove("hide");
     // Envio das perguntas no Array availableQuestions
     setAvailableQuestions();
     // Chamada da função getNewQuestion();
     getNewQuestion();
     // para criar os indicadores das respostas
     answersIndicator();
+}
+
+window.onload = function (){
+    homeBox.querySelector(".total-question").innerHTML = jogosprt.length;
 }

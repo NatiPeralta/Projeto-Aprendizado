@@ -7,6 +7,15 @@
         $listLogged = $u->logged($_SESSION['id']);
 
         $nomeUser = $listLogged['nome'];
+
+        $listPlacar = $u->placar($_SESSION['id']);
+
+        $pntUser = $listPlacar['pontuacao'];
+
+        
+        
+
+            
 ?>
 
 <html>
@@ -16,13 +25,13 @@
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
-        <div class="home-box custom-box hide">
+        <div class="home-box custom-box">
             <h3>Instruções:</h3>
-            <p>Número total de questões: <span class="total-question">5</span></p>
-            <button type="button" class="btn">Jogar!</button>
+            <p>Número total de questões: <span class="total-question"></span></p>
+            <button type="button" class="btn" onclick="startQuiz()">Jogar!</button>
         </div>
 
-        <div class="quiz-box custom-box">
+        <div class="quiz-box custom-box hide">
             <div class="question-number">
                 
             </div>
@@ -52,10 +61,6 @@
                     <td><span class="total-attempt"></span></td>
                 </tr>
                 <tr>
-                    <td>Corretas</td>
-                    <td><span name="pontuacao" class="total-correct"></span></td>
-                </tr>
-                <tr>
                     <td>Erradas</td>
                     <td><span class="total-wrong"></span></td>
                 </tr>
@@ -68,37 +73,13 @@
                     <td><span class="total-score"></span></td>
                 </tr>
                 <tr>
-                    <td>Pontuação Total da <?php echo $nomeUser; ?></td>
-                    <td><span class="total-user"></span></td>
+                    <td>Pontuação Total do(a) <?php echo $nomeUser; ?></td>
+                    <td><span class="total-user"></td>
                 </tr>
             </table>
             <button type="button" class="btn" onclick="tryAgainQuiz()">Tentar Novamente</button>
             <button type="button" class="btn" onclick="goToHome()">Voltar ao Início</button>
         </div>
-
-<?php
-if(isset($_POST['pontuacao']))
-{
-    $pontuacao = addslashes($_POST['pontuacao']);
-
-    if(!empty($pontuacao))
-    {
-        $u->conectar("projeto","localhost","root","");
-        $listPlacar = $u->placar($_SESSION['id']);
-
-        $pntUser = $listPlacar['pontuacao'];
-            
-    }
-    else
-    {
-        ?>
-        <div class="msg-erro">
-        Não foi possível apresentar a pontuacao!
-        </div>
-        <?php
-    }
-}
-?>
 
 <script src="js/question.js"></script>
 <script src="js/app.js"></script>

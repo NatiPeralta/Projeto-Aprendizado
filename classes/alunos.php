@@ -91,6 +91,23 @@ Class dadosAluno
         if($sql->rowCount() > 0){
             $array = $sql->fetch();
         }
-        return $array;
+            return $array;
     }
+
+    public function jogar($id){
+        global $pdo;
+
+        $array = array();
+
+        $sql = "UPDATE aluno SET pontuacao='{$_SESSION["pontuacao"]}' WHERE id = :id";
+        $sql = $pdo->prepare($sql);
+        $sql->bindValue("id", $id);
+        $sql->execute();
+
+        if($sql->rowCount() > 0){
+            $array = $sql->fetch();
+        }
+            return $array;
+    }
+
 }
