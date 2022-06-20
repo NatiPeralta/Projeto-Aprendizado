@@ -7,10 +7,6 @@
         $listLogged = $u->logged($_SESSION['id']);
 
         $nomeUser = $listLogged['nome'];
-
-        $listPlacar = $u->placar($_SESSION['id']);
-
-        $pntUser = $listPlacar['pontuacao'];
      
 ?>
 

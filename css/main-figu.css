@@ -154,7 +154,7 @@ ul li.active a:hover {
 }
 
 .bloco-imagem {
-    height: 340px;
+    width: 300px;
     background-color: #e0ecff;
     border: 1px solid #84adeb;
     padding-top: 15px;
@@ -212,16 +212,13 @@ h3 {
     background: #C1DAFF;
 }
 
-.bloco-imagens-texto h1 {
-    font-family: cursive;
-    text-align: center;
-    color: #0d4599;
-}
 
 .bloco-imagens-texto h2 {
     font-family: cursive;
-    color: #0d4599;
-    padding-left: 15px;
+    color: #44089B;
+    padding-top: 20px;
+    padding-left: 420px;
+    font-size: 30px;
 }
 
 .col-4 {
