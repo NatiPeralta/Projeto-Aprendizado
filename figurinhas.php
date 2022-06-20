@@ -295,6 +295,306 @@ scratchCard17("./img/raspadinha.jpg","./img/cien-5.jpg", 300, 300);
 scratchCard18("./img/raspadinha.jpg","./img/cien-6.jpg", 300, 300);
 </script>
 </div>
+
+<!-- Figurinhas Historia-->
+<div class="content" style="margin-left: 20%; float: left;">
+            <h2><b>História</b></h2>
+            <div class="col-3 bloco-texto bloco-imagem">
+            <div id="js-container-19">
+                <canvas id="js-canvas-19"></canvas>
+                <div class="discount-19">
+                <img id="discountIMG-19">
+                </div>
+            </div>
+            </div>
+<script>
+scratchCard19("./img/raspadinha.jpg","./img/historia/his-1.jpg", 300, 300);
+</script>
+
+<div class="col-3 bloco-texto bloco-imagem">
+            <div id="js-container-20">
+                <canvas id="js-canvas-20"></canvas>
+                <div class="discount-20">
+                <img id="discountIMG-20">
+                </div>
+            </div>
+            </div>
+<script>
+scratchCard20("./img/raspadinha.jpg","./img/historia/his-2.jpg", 300, 300);
+</script>
+
+<div class="col-3 bloco-texto bloco-imagem">
+            <div id="js-container-21">
+                <canvas id="js-canvas-21"></canvas>
+                <div class="discount-21">
+                <img id="discountIMG-21">
+                </div>
+            </div>
+            </div>
+<script>
+scratchCard21("./img/raspadinha.jpg","./img/historia/his-3.jpg", 300, 300);
+</script>
+
+<div class="col-3 bloco-texto bloco-imagem">
+            <div id="js-container-22">
+                <canvas id="js-canvas-22"></canvas>
+                <div class="discount-22">
+                <img id="discountIMG-22">
+                </div>
+            </div>
+            </div>
+<script>
+scratchCard22("./img/raspadinha.jpg","./img/historia/his-4.jpg", 300, 300);
+</script>
+
+<div class="col-3 bloco-texto bloco-imagem">
+            <div id="js-container-23">
+                <canvas id="js-canvas-23"></canvas>
+                <div class="discount-23">
+                <img id="discountIMG-23">
+                </div>
+            </div>
+            </div>
+<script>
+scratchCard23("./img/raspadinha.jpg","./img/historia/his-5.jpg", 300, 300);
+</script>
+
+<div class="col-3 bloco-texto bloco-imagem">
+            <div id="js-container-24">
+                <canvas id="js-canvas-24"></canvas>
+                <div class="discount-24">
+                <img id="discountIMG-24">
+                </div>
+            </div>
+            </div>
+<script>
+scratchCard24("./img/raspadinha.jpg","./img/historia/his-6.jpg", 300, 300);
+</script>
+</div>
+
+<!-- Figurinhas Geografia-->
+<div class="content" style="margin-left: 20%; float: left;">
+            <h2><b>Geografia</b></h2>
+            <div class="col-3 bloco-texto bloco-imagem">
+            <div id="js-container-25">
+                <canvas id="js-canvas-25"></canvas>
+                <div class="discount-25">
+                <img id="discountIMG-25">
+                </div>
+            </div>
+            </div>
+<script>
+scratchCard25("./img/raspadinha.jpg","./img/geografia/geo-1.jpg", 300, 300);
+</script>
+
+<div class="col-3 bloco-texto bloco-imagem">
+            <div id="js-container-26">
+                <canvas id="js-canvas-26"></canvas>
+                <div class="discount-26">
+                <img id="discountIMG-26">
+                </div>
+            </div>
+            </div>
+<script>
+scratchCard26("./img/raspadinha.jpg","./img/geografia/geo-2.jpg", 300, 300);
+</script>
+
+<div class="col-3 bloco-texto bloco-imagem">
+            <div id="js-container-27">
+                <canvas id="js-canvas-27"></canvas>
+                <div class="discount-27">
+                <img id="discountIMG-27">
+                </div>
+            </div>
+            </div>
+<script>
+scratchCard27("./img/raspadinha.jpg","./img/geografia/geo-3.jpg", 300, 300);
+</script>
+
+<div class="col-3 bloco-texto bloco-imagem">
+            <div id="js-container-28">
+                <canvas id="js-canvas-28"></canvas>
+                <div class="discount-28">
+                <img id="discountIMG-28">
+                </div>
+            </div>
+            </div>
+<script>
+scratchCard28("./img/raspadinha.jpg","./img/geografia/geo-4.jpg", 300, 300);
+</script>
+
+<div class="col-3 bloco-texto bloco-imagem">
+            <div id="js-container-29">
+                <canvas id="js-canvas-29"></canvas>
+                <div class="discount-29">
+                <img id="discountIMG-29">
+                </div>
+            </div>
+            </div>
+<script>
+scratchCard29("./img/raspadinha.jpg","./img/geografia/geo-5.jpg", 300, 300);
+</script>
+
+<div class="col-3 bloco-texto bloco-imagem">
+            <div id="js-container-30">
+                <canvas id="js-canvas-30"></canvas>
+                <div class="discount-30">
+                <img id="discountIMG-30">
+                </div>
+            </div>
+            </div>
+<script>
+scratchCard30("./img/raspadinha.jpg","./img/geografia/geo-6.jpg", 300, 300);
+</script>
+</div>
+
+<!-- Figurinhas Matematica-->
+<div class="content" style="margin-left: 20%; float: left;">
+            <h2><b>Matematica</b></h2>
+            <div class="col-3 bloco-texto bloco-imagem">
+            <div id="js-container-31">
+                <canvas id="js-canvas-31"></canvas>
+                <div class="discount-31">
+                <img id="discountIMG-31">
+                </div>
+            </div>
+            </div>
+<script>
+scratchCard31("./img/raspadinha.jpg","./img/matematica/mat-1.jpg", 300, 300);
+</script>
+
+<div class="col-3 bloco-texto bloco-imagem">
+            <div id="js-container-32">
+                <canvas id="js-canvas-32"></canvas>
+                <div class="discount-32">
+                <img id="discountIMG-32">
+                </div>
+            </div>
+            </div>
+<script>
+scratchCard32("./img/raspadinha.jpg","./img/matematica/mat-2.jpg", 300, 300);
+</script>
+
+<div class="col-3 bloco-texto bloco-imagem">
+            <div id="js-container-33">
+                <canvas id="js-canvas-33"></canvas>
+                <div class="discount-33">
+                <img id="discountIMG-33">
+                </div>
+            </div>
+            </div>
+<script>
+scratchCard33("./img/raspadinha.jpg","./img/matematica/mat-3.jpg", 300, 300);
+</script>
+
+<div class="col-3 bloco-texto bloco-imagem">
+            <div id="js-container-34">
+                <canvas id="js-canvas-34"></canvas>
+                <div class="discount-34">
+                <img id="discountIMG-34">
+                </div>
+            </div>
+            </div>
+<script>
+scratchCard34("./img/raspadinha.jpg","./img/matematica/mat-4.jpg", 300, 300);
+</script>
+
+<div class="col-3 bloco-texto bloco-imagem">
+            <div id="js-container-35">
+                <canvas id="js-canvas-35"></canvas>
+                <div class="discount-35">
+                <img id="discountIMG-35">
+                </div>
+            </div>
+            </div>
+<script>
+scratchCard35("./img/raspadinha.jpg","./img/matematica/mat-5.jpg", 300, 300);
+</script>
+
+<div class="col-3 bloco-texto bloco-imagem">
+            <div id="js-container-36">
+                <canvas id="js-canvas-36"></canvas>
+                <div class="discount-36">
+                <img id="discountIMG-36">
+                </div>
+            </div>
+            </div>
+<script>
+scratchCard36("./img/raspadinha.jpg","./img/matematica/mat-6.jpg", 300, 300);
+</script>
+</div>
+
+<!-- Figurinhas Filosofia-->
+<div class="content" style="margin-left: 20%; float: left;">
+            <h2><b>Filosofia</b></h2>
+            <div class="col-3 bloco-texto bloco-imagem">
+            <div id="js-container-37">
+                <canvas id="js-canvas-37"></canvas>
+                <div class="discount-37">
+                <img id="discountIMG-37">
+                </div>
+            </div>
+            </div>
+<script>
+scratchCard37("./img/raspadinha.jpg","./img/filosofia/filo-1.jpg", 300, 300);
+</script>
+
+<div class="col-3 bloco-texto bloco-imagem">
+            <div id="js-container-38">
+                <canvas id="js-canvas-38"></canvas>
+                <div class="discount-38">
+                <img id="discountIMG-38">
+                </div>
+            </div>
+            </div>
+<script>
+scratchCard38("./img/raspadinha.jpg","./img/filosofia/filo-2.jpg", 300, 300);
+</script>
+
+<div class="col-3 bloco-texto bloco-imagem">
+            <div id="js-container-39">
+                <canvas id="js-canvas-39"></canvas>
+                <div class="discount-39">
+                <img id="discountIMG-39">
+                </div>
+            </div>
+            </div>
+<script>
+scratchCard39("./img/raspadinha.jpg","./img/filosofia/filo-3.jpg", 300, 300);
+</script>
+
+<div class="col-3 bloco-texto bloco-imagem">
+            <div id="js-container-40">
+                <canvas id="js-canvas-40"></canvas>
+                <div class="discount-40">
+                <img id="discountIMG-40">
+                </div>
+            </div>
+            </div>
+<script>
+scratchCard40("./img/raspadinha.jpg","./img/filosofia/filo-4.jpg", 300, 300);
+</script>
+
+<div class="col-3 bloco-texto bloco-imagem">
+            <div id="js-container-41">
+                <canvas id="js-canvas-41"></canvas>
+                <div class="discount-41">
+                <img id="discountIMG-41">
+                </div>
+            </div>
+            </div>
+<script>
+scratchCard41("./img/raspadinha.jpg","./img/filosofia/filo-5.jpg", 300, 300);
+</script>
+
+
+</div>
+
+
+
+
+
+
 </div>
 
     <div class="col-100 bloco-logos">
