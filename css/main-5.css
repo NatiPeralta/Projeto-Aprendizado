@@ -87,7 +87,7 @@ ul li.active a:hover {
     float: right;
 }
 .busca input {
-    background-image: url('../img/pesquisa.png');
+    background-image: url('../img/icones/pesquisa.png');
     background-repeat: no-repeat;
     height: 36px;
     padding: 12px;
@@ -128,7 +128,7 @@ ul li.active a:hover {
 
 .bloco-imagens-texto {
     background-color: #FFFFFF;
-    background-image: url("../img/back-his.png");
+    background-image: url("../img/back/back-his.png");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -139,7 +139,7 @@ ul li.active a:hover {
     content: '';
     height: 25px;
     background: #FFFFFF;
-    background-image: url('../img/setinha-5.png');
+    background-image: url('../img/icones/setinha-5.png');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -249,7 +249,7 @@ ul li.active a:hover {
     width: 20px;
     height: 24px;
     display: inline-block;
-    background-image: url('../img/email.png');
+    background-image: url('../img/icones/email.png');
     float: left;
     background-repeat: no-repeat;
     padding-left: 5px;

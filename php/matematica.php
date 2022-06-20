@@ -7,9 +7,9 @@ include 'areaPrivada.php';
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="./css/main-6.css">
-    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
-    <title>Geografia</title>
+    <link rel="stylesheet" type="text/css" href="../css/main-7.css">
+    <link rel="stylesheet" type="text/css" href="../css/slick.css"/>
+    <title>Matemática</title>
 </head>
 
 <body>
@@ -21,8 +21,8 @@ include 'areaPrivada.php';
                     <li><a href="ingles.php">Inglês</a></li>
                     <li><a href="ciencias.php">Ciências</a></li>
                     <li><a href="historia.php">História</a></li>
-                    <li class="active"><a href="geografia.php">Geografia</a></li>
-                    <li><a href="matematica.php">Matemática</a></li>
+                    <li><a href="geografia.php">Geografia</a></li>
+                    <li class="active"><a href="matematica.php">Matemática</a></li>
                     <li><a href="filosofia.php">Filosofia</a></li>
                 </ul>
             </div>
@@ -40,39 +40,39 @@ include 'areaPrivada.php';
     </div>
     <div class="col-100 bloco-imagens-texto">
         <div class="content" style="margin-left: 17%; float: left;">
-            <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/fuso.png">
-                <p><b>Fuso Horário</b></p>
-                <p>A Terra se divide em 24 fusos horários, e cada um deles corresponde a um intervalo de 15°.
+        <div class="col-3 bloco-texto bloco-imagem">
+                <img src="../img/materias/naturais.png">
+                <p><b>Números Naturais</b></p>
+                <p>O conjunto dos números naturais é formado por todos os números inteiros não negativos.
                 </p>
                 <p>
                     <a href="./portugues.html">Clique aqui</a> para saber mais!
                 </p>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/elementos.png">
-                <p><b>Elementos Climáticos</b></p>
-                <p>Os elementos climáticos são aqueles que atuam na atmosfera e são modificados pelos fatores de influência.
+                <img src="../img/materias/multiplos.png">
+                <p><b>Múltiplos de um Número</b></p>
+                <p>Nesse conteúdo você aprenderá tudo sobre como encontrar o múltiplo de um número.
                 </p>
                 <p>
                     <a href="./ingles.html">Clique aqui</a> e aprenda!
                 </p>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/agua.png">
-                <p><b>Água Superficial e Subterrânea</b></p>
-                <p>As águas superficiais são aquelas que brotam pela superfície terrestre, escoando numa formação inicial em termos de mina.
+                <img src="../img/materias/divisao.png">
+                <p><b>Algoritmo da Divisão</b></p>
+                <p>Dizemos que um número é divisor de outro quando a divisão é exata, ou seja, não há resto.
                 </p>
                 <p>
-                    <a href="./ciencias.html">Clique aqui</a> para entender melhor!
+                    <a href="./ciencias.html">Clique aqui</a> para entender melhor sobre!
                 </p>
             </div>
         </div>
         <div class="content" style="margin-left: 17%; float: left;">
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/hidrografia.png">
-                <p><b>Hidrografia</b></p>
-                <p>Os mares e os oceanos, situados principalmente no hemisfério sul, correspondem a 71% da superfície do globo, e os rios e lagoas a menos de 3%.
+                <img src="../img/materias/porcentagem.png">
+                <p><b>Porcentagem</b></p>
+                <p>Representa uma razão cujo denominador é igual a 100.
                 </p>
                 <p>
                     <a href="./historia.html">Clique aqui</a> para saber mais!

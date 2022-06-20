@@ -1,19 +1,20 @@
 <?php
         session_start();
-        require_once 'CLASSES/alunos.php';
+        require_once '../CLASSES/alunos.php';
         $u = new dadosAluno;
 
         $u->conectar("projeto","localhost","root","");
         $listLogged = $u->logged($_SESSION['id']);
 
         $nomeUser = $listLogged['nome'];
+
 ?>
 
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Quiz Português</title>
-        <link rel="stylesheet" href="./css/style.css">
+        <title>Quiz Filosofia</title>
+        <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
         <div class="home-box custom-box">
@@ -71,8 +72,8 @@
             <button type="button" class="btn" onclick="goToHome()">Tentar Novamente</button>
         </div>
 
-<script src="js/question.js"></script>
-<script src="js/app.js"></script>
+<script src="../js/question/question-7.js"></script>
+<script src="../js/app/app-7.js"></script>
 
 </body>
 </html>

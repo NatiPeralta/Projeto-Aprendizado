@@ -1,5 +1,5 @@
 <?php
-        require_once 'CLASSES/alunos.php';
+        require_once '../CLASSES/alunos.php';
         $u = new dadosAluno;
         $u->conectar("projeto","localhost","root","");
 
@@ -12,8 +12,8 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="./css/main-private.css">
-    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/main-private.css">
+    <link rel="stylesheet" type="text/css" href="../css/slick.css"/>
     <title>Projeto Aprendizado</title>
 </head>
 
@@ -22,19 +22,19 @@
         <main>
             <div class="header-1">
                 <div class="logo">
-                   <a href="index.php"><img src="./img/logo.png" width="150" height="60" /></a>
+                   <a href="./index.php"><img src="../img/icones/logo.png" width="150" height="60" /></a>
                 </div>
 
                 <div class="login">   
                 <?php if(empty($_SESSION['id'])) { ?>           
-                    <a href="login.php">Entrar</a>
-                    <a href="cadastrar.php">Cadastrar</a>
+                    <a href="./login.php">Entrar</a>
+                    <a href="./cadastrar.php">Cadastrar</a>
                     <?php } else {
                         $listLogged = $u->logged($_SESSION['id']);
                         $nomeUser = $listLogged['nome'];
                     ?>
-                    <a href="perfil-user.php"> <?php echo $nomeUser; ?> </a>  
-                    <a href="sair.php"> Sair </a>
+                    <a href="./perfil-user.php"> <?php echo $nomeUser; ?> </a>  
+                    <a href="./sair.php"> Sair </a>
                     <?php } ?>
                  </div>
             </div>

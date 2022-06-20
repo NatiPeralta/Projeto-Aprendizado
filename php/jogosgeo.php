@@ -1,6 +1,6 @@
 <?php
         session_start();
-        require_once 'CLASSES/alunos.php';
+        require_once '../CLASSES/alunos.php';
         $u = new dadosAluno;
 
         $u->conectar("projeto","localhost","root","");
@@ -14,7 +14,7 @@
     <head>
         <meta charset="utf-8">
         <title>Quiz Geografia</title>
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
         <div class="home-box custom-box">
@@ -72,8 +72,8 @@
             <button type="button" class="btn" onclick="goToHome()">Tentar Novamente</button>
         </div>
 
-<script src="js/question-5.js"></script>
-<script src="js/app-5.js"></script>
+<script src="../js/question/question-5.js"></script>
+<script src="../js/app/app-5.js"></script>
 
 </body>
 </html>

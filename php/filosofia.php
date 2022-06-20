@@ -7,9 +7,9 @@ include 'areaPrivada.php';
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="./css/main-5.css">
-    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
-    <title>História</title>
+    <link rel="stylesheet" type="text/css" href="../css/main-8.css">
+    <link rel="stylesheet" type="text/css" href="../css/slick.css"/>
+    <title>Filosofia</title>
 </head>
 
 <body>
@@ -20,10 +20,10 @@ include 'areaPrivada.php';
                     <li><a href="portugues.php">Português</a></li>
                     <li><a href="ingles.php">Inglês</a></li>
                     <li><a href="ciencias.php">Ciências</a></li>
-                    <li class="active"><a href="historia.php">História</a></li>
+                    <li><a href="historia.php">História</a></li>
                     <li><a href="geografia.php">Geografia</a></li>
                     <li><a href="matematica.php">Matemática</a></li>
-                    <li><a href="filosofia.php">Filosofia</a></li>
+                    <li class="active"><a href="filosofia.php">Filosofia</a></li>
                 </ul>
             </div>
             <div class="busca">
@@ -40,28 +40,28 @@ include 'areaPrivada.php';
     </div>
     <div class="col-100 bloco-imagens-texto">
         <div class="content" style="margin-left: 17%; float: left;">
-            <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/periodos.png">
-                <p><b>Periodização Clássica</b></p>
-                <p>Explicamos tudo sobre a divisão das fases históricas do planeta, todas as diferentes periodização e os acontecimentos históricos que os definiram.
+        <div class="col-3 bloco-texto bloco-imagem">
+                <img src="../img/materias/filo.png">
+                <p><b>O que é Filosofia?</b></p>
+                <p>Nesse conteúdo você saberá tudo sobre o que é Filosofia e no que ela se dedica.
                 </p>
                 <p>
                     <a href="./portugues.html">Clique aqui</a> para saber mais!
                 </p>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/deuses.png">
-                <p><b>Deuses Gregos</b></p>
-                <p>Cultuados pelos antigos habitantes da Grécia, eram representados sob a forma humana e simbolizavam os anseios e temores humanos.
+                <img src="../img/materias/percepcao.png">
+                <p><b>Percepção na Filosofia</b></p>
+                <p>Aqui você aprenderá sobre as duas concepções sobre a sensação e a percepção.
                 </p>
                 <p>
                     <a href="./ingles.html">Clique aqui</a> e aprenda!
                 </p>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/esparta.png">
-                <p><b>Esparta e Atenas</b></p>
-                <p>As cidades de Esparta e Atenas se formaram durante o período Arcaico, no contexto da formação das primeiras polis gregas.
+                <img src="../img/materias/mundo.png">
+                <p><b>Mundo Sensível</b></p>
+                <p>Aqui você entenderá sobre o mundo sensível de acordo com Platão.
                 </p>
                 <p>
                     <a href="./ciencias.html">Clique aqui</a> para entender melhor!
@@ -70,12 +70,21 @@ include 'areaPrivada.php';
         </div>
         <div class="content" style="margin-left: 17%; float: left;">
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/gilga.png">
-                <p><b>Gilgamesh</b></p>
-                <p>A biblioteca de Nínive e Gilgamesh, um dos mais importantes legados da Mesopotâmia.
+                <img src="../img/materias/existencialismo.png">
+                <p><b>Existencialismo</b></p>
+                <p>Venha aprender sobre a proposta existencialista de analisar o ser humano em seu todo.
                 </p>
                 <p>
-                    <a href="./historia.html">Clique aqui</a> para aprender sobre!
+                    <a href="./historia.html">Clique aqui</a> para saber mais!
+                </p>
+            </div>
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="../img/materias/crescimento.png">
+                <p><b>Crescimento Pessoal</b></p>
+                <p>Um caminho fundamental para desenvolver competências e habilidades.
+                </p>
+                <p>
+                    <a href="./geografia.html">Clique aqui</a> para entender melhor!
                 </p>
             </div>
         </div>

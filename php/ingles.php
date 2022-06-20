@@ -7,9 +7,9 @@ include 'areaPrivada.php';
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="./css/main-7.css">
-    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
-    <title>Matemática</title>
+    <link rel="stylesheet" type="text/css" href="../css/main-3.css">
+    <link rel="stylesheet" type="text/css" href="../css/slick.css"/>
+    <title>Inglês</title>
 </head>
 
 <body>
@@ -18,11 +18,11 @@ include 'areaPrivada.php';
             <div class="menu">
                 <ul>
                     <li><a href="portugues.php">Português</a></li>
-                    <li><a href="ingles.php">Inglês</a></li>
+                    <li class="active"><a href="ingles.php">Inglês</a></li>
                     <li><a href="ciencias.php">Ciências</a></li>
                     <li><a href="historia.php">História</a></li>
                     <li><a href="geografia.php">Geografia</a></li>
-                    <li class="active"><a href="matematica.php">Matemática</a></li>
+                    <li><a href="matematica.php">Matemática</a></li>
                     <li><a href="filosofia.php">Filosofia</a></li>
                 </ul>
             </div>
@@ -40,42 +40,42 @@ include 'areaPrivada.php';
     </div>
     <div class="col-100 bloco-imagens-texto">
         <div class="content" style="margin-left: 17%; float: left;">
-        <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/naturais.png">
-                <p><b>Números Naturais</b></p>
-                <p>O conjunto dos números naturais é formado por todos os números inteiros não negativos.
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="../img/materias/to-be.png">
+                <p><b>Verb to be</b></p>
+                <p>O verbo to be é um dos verbos mais utilizados da língua inglesa e pode ser traduzido como ser ou estar.
                 </p>
                 <p>
                     <a href="./portugues.html">Clique aqui</a> para saber mais!
                 </p>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/multiplos.png">
-                <p><b>Múltiplos de um Número</b></p>
-                <p>Nesse conteúdo você aprenderá tudo sobre como encontrar o múltiplo de um número.
+                <img src="../img/materias/present.png">
+                <p><b>Present Perfect</b></p>
+                <p>O present perfect é usado quando expressamos alguma ação no passado que tem repercussão no presente ou ainda continua no presente.
                 </p>
                 <p>
                     <a href="./ingles.html">Clique aqui</a> e aprenda!
                 </p>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/divisao.png">
-                <p><b>Algoritmo da Divisão</b></p>
-                <p>Dizemos que um número é divisor de outro quando a divisão é exata, ou seja, não há resto.
+                <img src="../img/materias/possessive.png">
+                <p><b>Possessive Adjectives</b></p>
+                <p>Os possessive adjectives são uma classe de palavras responsável por modificar os substantivos, acrescentando-lhes características de propriedade ou posse.
                 </p>
                 <p>
-                    <a href="./ciencias.html">Clique aqui</a> para entender melhor sobre!
+                    <a href="./ciencias.html">Clique aqui</a> para saber mais!
                 </p>
             </div>
         </div>
         <div class="content" style="margin-left: 17%; float: left;">
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/porcentagem.png">
-                <p><b>Porcentagem</b></p>
-                <p>Representa uma razão cujo denominador é igual a 100.
+                <img src="../img/materias/there.png">
+                <p><b>There is and There are</b></p>
+                <p>Quando usar THERE IS e THERE ARE? Você vai ver que a diferença é simples e saberá como utilizá-los sem dificuldade.
                 </p>
                 <p>
-                    <a href="./historia.html">Clique aqui</a> para saber mais!
+                    <a href="./historia.html">Clique aqui</a> para aprender sobre!
                 </p>
             </div>
         </div>

@@ -86,7 +86,7 @@ ul li.active a:hover {
     float: right;
 }
 .busca input {
-    background-image: url('../img/pesquisa.png');
+    background-image: url('../img/icones/pesquisa.png');
     background-repeat: no-repeat;
     height: 36px;
     padding: 12px;
@@ -110,7 +110,7 @@ button.slick-prev {
     z-index: 9;
     background-color: transparent;
     position: absolute;
-    background-image: url(../img/arrow-left.png);
+    background-image: url(../img/icones/arrow-left.png);
     background-repeat: no-repeat;
     top: 45%;
     left: 2%;
@@ -125,7 +125,7 @@ button.slick-next {
     z-index: 9;
     background-color: transparent;
     position: absolute;
-    background-image: url(../img/arrow-right.png);
+    background-image: url(../img/icones/arrow-right.png);
     background-repeat: no-repeat;
     top: 45%;
     right: 2%;
@@ -267,7 +267,7 @@ h3 {
     content: '';
     height: 52px;
     background: #FFFFFF;
-    background-image: url('../img/setinha.png');
+    background-image: url('../img/icones/setinha.png');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -340,7 +340,7 @@ h3 {
     width: 20px;
     height: 24px;
     display: inline-block;
-    background-image: url('../img/email.png');
+    background-image: url('../img/icones/email.png');
     float: left;
     background-repeat: no-repeat;
     padding-left: 5px;

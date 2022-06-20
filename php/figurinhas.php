@@ -7,10 +7,10 @@ include 'areaPrivada.php';
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="./css/main-figu.css"/>
-    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
-<script src="./js/scratch-card/scratch-card.js"></script>
-<link rel="stylesheet" href="./css/scratch-card.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/main-figu.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/slick.css"/>
+<script src="../js/scratch-card/scratch-card.js"></script>
+<link rel="stylesheet" href="../css/scratch-card.css"/>
     <title>Projeto Aprendizado</title>
 </head>
 
@@ -48,19 +48,19 @@ include 'areaPrivada.php';
             </p>
 
             <div class="col-2 bloco-texto">
-                <a href="jogos.php"><img src="./img/game.png"></a>
+                <a href="jogos.php"><img src="../img/icones/game.png"></a>
                 <h3><b>Jogue nosso quiz</b></h3>
                 <p>Aqui você consegue aprender enquanto se diverte
                 com os nossos jogos</p>
             </div>
             <div class="col-2 bloco-texto">
-                <a href="index.php"><img src="./img/book.png"></a>
+                <a href="index.php"><img src="../img/icones/book.png"></a>
                 <h3><b>Adquire conhecimento</b></h3>
                 <p>Temos todo o material necessário para você se preparar antes de encarar
                 nossos jogos de perguntas e respostas</p>
             </div>
             <div class="col-2 bloco-texto">
-                <a href="figurinhas.php"><img src="./img/champion.png"></a>
+                <a href="figurinhas.php"><img src="../img/icones/champion.png"></a>
                 <h3><b>Ganhe prêmios</b></h3>
                 <p>Quanto mais perguntas você acertar, mais figurinhas você ganha.
                 Venha completar sua coleção!</p>
@@ -68,7 +68,8 @@ include 'areaPrivada.php';
         </div>
     </div>
     <div class="col-100 bloco-imagens-texto">
-        <!-- Figurinhas Portugues-->
+
+<!-- Figurinhas Portugues-->
         <div class="content" style="margin-left: 20%; float: left;">
             <h2><b>Português</b></h2>
         <div class="col-3 bloco-texto bloco-imagem">
@@ -80,7 +81,7 @@ include 'areaPrivada.php';
             </div>
         </div>
 <script>
-scratchCard("./img/raspadinha.jpg","./img/port-1.jpg", 300, 300);
+scratchCard("../img/materias/raspadinha.jpg","../img/portugues/port-1.jpg", 300, 300);
 </script>
         <div class="col-3 bloco-texto bloco-imagem">
             <div id="js-container-2">
@@ -92,7 +93,7 @@ scratchCard("./img/raspadinha.jpg","./img/port-1.jpg", 300, 300);
         </div>
 
 <script>
-scratchCard2("./img/raspadinha.jpg","./img/port-2.jpg", 300, 300);
+scratchCard2("../img/materias/raspadinha.jpg","../img/portugues/port-2.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -104,7 +105,7 @@ scratchCard2("./img/raspadinha.jpg","./img/port-2.jpg", 300, 300);
             </div>
         </div>
 <script>
-scratchCard3("./img/raspadinha.jpg","./img/port-3.jpg", 300, 300);
+scratchCard3("../img/materias/raspadinha.jpg","../img/portugues/port-3.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -116,7 +117,7 @@ scratchCard3("./img/raspadinha.jpg","./img/port-3.jpg", 300, 300);
             </div>
         </div>
 <script>
-scratchCard4("./img/raspadinha.jpg","./img/port-4.jpg", 300, 300);
+scratchCard4("../img/materias/raspadinha.jpg","../img/portugues/port-4.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -128,7 +129,7 @@ scratchCard4("./img/raspadinha.jpg","./img/port-4.jpg", 300, 300);
             </div>
         </div>
 <script>
-scratchCard5("./img/raspadinha.jpg","./img/port-5.jpg", 300, 300);
+scratchCard5("../img/materias/raspadinha.jpg","../img/portugues/port-5.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -140,11 +141,11 @@ scratchCard5("./img/raspadinha.jpg","./img/port-5.jpg", 300, 300);
             </div>
         </div>
 <script>
-scratchCard6("./img/raspadinha.jpg","./img/port-6.jpg", 300, 300);
+scratchCard6("../img/materias/raspadinha.jpg","../img/portugues/port-6.jpg", 300, 300);
 </script>
 </div>
 
-        <!-- Figurinhas Ingles-->
+<!-- Figurinhas Ingles-->
         <div class="content" style="margin-left: 20%; float: left;">
             <h2><b>Inglês</b></h2>
         <div class="col-3 bloco-texto bloco-imagem">
@@ -156,7 +157,7 @@ scratchCard6("./img/raspadinha.jpg","./img/port-6.jpg", 300, 300);
             </div>
         </div>
 <script>
-scratchCard7("./img/raspadinha.jpg","./img/ing-1.jpg", 300, 300);
+scratchCard7("../img/materias/raspadinha.jpg","../img/ingles/ing-1.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -168,7 +169,7 @@ scratchCard7("./img/raspadinha.jpg","./img/ing-1.jpg", 300, 300);
             </div>
         </div>
 <script>
-scratchCard8("./img/raspadinha.jpg","./img/ing-2.jpg", 300, 300);
+scratchCard8("../img/materias/raspadinha.jpg","../img/ingles/ing-2.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -180,7 +181,7 @@ scratchCard8("./img/raspadinha.jpg","./img/ing-2.jpg", 300, 300);
             </div>
         </div>
 <script>
-scratchCard9("./img/raspadinha.jpg","./img/ing-3.jpg", 300, 300);
+scratchCard9("../img/materias/raspadinha.jpg","../img/ingles/ing-3.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -192,7 +193,7 @@ scratchCard9("./img/raspadinha.jpg","./img/ing-3.jpg", 300, 300);
             </div>
         </div>
 <script>
-scratchCard10("./img/raspadinha.jpg","./img/ing-4.jpg", 300, 300);
+scratchCard10("../img/materias/raspadinha.jpg","../img/ingles/ing-4.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -204,7 +205,7 @@ scratchCard10("./img/raspadinha.jpg","./img/ing-4.jpg", 300, 300);
             </div>
         </div>
 <script>
-scratchCard11("./img/raspadinha.jpg","./img/ing-5.jpg", 300, 300);
+scratchCard11("../img/materias/raspadinha.jpg","../img/ingles/ing-5.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -216,11 +217,11 @@ scratchCard11("./img/raspadinha.jpg","./img/ing-5.jpg", 300, 300);
             </div>
         </div>
 <script>
-scratchCard12("./img/raspadinha.jpg","./img/ing-6.jpg", 300, 300);
+scratchCard12("../img/materias/raspadinha.jpg","../img/ingles/ing-6.jpg", 300, 300);
 </script>
 </div>
 
-        <!-- Figurinhas Ciencias-->
+<!-- Figurinhas Ciencias-->
         <div class="content" style="margin-left: 20%; float: left;">
             <h2><b>Ciências</b></h2>
             <div class="col-3 bloco-texto bloco-imagem">
@@ -232,7 +233,7 @@ scratchCard12("./img/raspadinha.jpg","./img/ing-6.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard13("./img/raspadinha.jpg","./img/cien-1.jpg", 300, 300);
+scratchCard13("../img/materias/raspadinha.jpg","../img/ciencias/cien-1.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -244,7 +245,7 @@ scratchCard13("./img/raspadinha.jpg","./img/cien-1.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard14("./img/raspadinha.jpg","./img/cien-2.jpg", 300, 300);
+scratchCard14("../img/materias/raspadinha.jpg","../img/ciencias/cien-2.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -256,7 +257,7 @@ scratchCard14("./img/raspadinha.jpg","./img/cien-2.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard15("./img/raspadinha.jpg","./img/cien-3.jpg", 300, 300);
+scratchCard15("../img/materias/raspadinha.jpg","../img/ciencias/cien-3.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -268,7 +269,7 @@ scratchCard15("./img/raspadinha.jpg","./img/cien-3.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard16("./img/raspadinha.jpg","./img/cien-4.jpg", 300, 300);
+scratchCard16("../img/materias/raspadinha.jpg","../img/ciencias/cien-4.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -280,7 +281,7 @@ scratchCard16("./img/raspadinha.jpg","./img/cien-4.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard17("./img/raspadinha.jpg","./img/cien-5.jpg", 300, 300);
+scratchCard17("../img/materias/raspadinha.jpg","../img/ciencias/cien-5.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -292,7 +293,7 @@ scratchCard17("./img/raspadinha.jpg","./img/cien-5.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard18("./img/raspadinha.jpg","./img/cien-6.jpg", 300, 300);
+scratchCard18("../img/materias/raspadinha.jpg","../img/ciencias/cien-6.jpg", 300, 300);
 </script>
 </div>
 
@@ -308,7 +309,7 @@ scratchCard18("./img/raspadinha.jpg","./img/cien-6.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard19("./img/raspadinha.jpg","./img/historia/his-1.jpg", 300, 300);
+scratchCard19("../img/materias/raspadinha.jpg","../img/historia/his-1.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -320,7 +321,7 @@ scratchCard19("./img/raspadinha.jpg","./img/historia/his-1.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard20("./img/raspadinha.jpg","./img/historia/his-2.jpg", 300, 300);
+scratchCard20("../img/materias/raspadinha.jpg","../img/historia/his-2.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -332,7 +333,7 @@ scratchCard20("./img/raspadinha.jpg","./img/historia/his-2.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard21("./img/raspadinha.jpg","./img/historia/his-3.jpg", 300, 300);
+scratchCard21("../img/materias/raspadinha.jpg","../img/historia/his-3.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -344,7 +345,7 @@ scratchCard21("./img/raspadinha.jpg","./img/historia/his-3.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard22("./img/raspadinha.jpg","./img/historia/his-4.jpg", 300, 300);
+scratchCard22("../img/materias/raspadinha.jpg","../img/historia/his-4.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -356,7 +357,7 @@ scratchCard22("./img/raspadinha.jpg","./img/historia/his-4.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard23("./img/raspadinha.jpg","./img/historia/his-5.jpg", 300, 300);
+scratchCard23("../img/materias/raspadinha.jpg","../img/historia/his-5.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -368,7 +369,7 @@ scratchCard23("./img/raspadinha.jpg","./img/historia/his-5.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard24("./img/raspadinha.jpg","./img/historia/his-6.jpg", 300, 300);
+scratchCard24("../img/materias/raspadinha.jpg","../img/historia/his-6.jpg", 300, 300);
 </script>
 </div>
 
@@ -384,7 +385,7 @@ scratchCard24("./img/raspadinha.jpg","./img/historia/his-6.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard25("./img/raspadinha.jpg","./img/geografia/geo-1.jpg", 300, 300);
+scratchCard25("../img/materias/raspadinha.jpg","../img/geografia/geo-1.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -396,7 +397,7 @@ scratchCard25("./img/raspadinha.jpg","./img/geografia/geo-1.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard26("./img/raspadinha.jpg","./img/geografia/geo-2.jpg", 300, 300);
+scratchCard26("../img/materias/raspadinha.jpg","../img/geografia/geo-2.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -408,7 +409,7 @@ scratchCard26("./img/raspadinha.jpg","./img/geografia/geo-2.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard27("./img/raspadinha.jpg","./img/geografia/geo-3.jpg", 300, 300);
+scratchCard27("../img/materias/raspadinha.jpg","../img/geografia/geo-3.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -420,7 +421,7 @@ scratchCard27("./img/raspadinha.jpg","./img/geografia/geo-3.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard28("./img/raspadinha.jpg","./img/geografia/geo-4.jpg", 300, 300);
+scratchCard28("../img/materias/raspadinha.jpg","../img/geografia/geo-4.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -432,7 +433,7 @@ scratchCard28("./img/raspadinha.jpg","./img/geografia/geo-4.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard29("./img/raspadinha.jpg","./img/geografia/geo-5.jpg", 300, 300);
+scratchCard29("../img/materias/raspadinha.jpg","../img/geografia/geo-5.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -444,7 +445,7 @@ scratchCard29("./img/raspadinha.jpg","./img/geografia/geo-5.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard30("./img/raspadinha.jpg","./img/geografia/geo-6.jpg", 300, 300);
+scratchCard30("../img/materias/raspadinha.jpg","../img/geografia/geo-6.jpg", 300, 300);
 </script>
 </div>
 
@@ -460,7 +461,7 @@ scratchCard30("./img/raspadinha.jpg","./img/geografia/geo-6.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard31("./img/raspadinha.jpg","./img/matematica/mat-1.jpg", 300, 300);
+scratchCard31("../img/materias/raspadinha.jpg","../img/matematica/mat-1.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -472,7 +473,7 @@ scratchCard31("./img/raspadinha.jpg","./img/matematica/mat-1.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard32("./img/raspadinha.jpg","./img/matematica/mat-2.jpg", 300, 300);
+scratchCard32("../img/materias/raspadinha.jpg","../img/matematica/mat-2.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -484,7 +485,7 @@ scratchCard32("./img/raspadinha.jpg","./img/matematica/mat-2.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard33("./img/raspadinha.jpg","./img/matematica/mat-3.jpg", 300, 300);
+scratchCard33("../img/materias/raspadinha.jpg","../img/matematica/mat-3.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -496,7 +497,7 @@ scratchCard33("./img/raspadinha.jpg","./img/matematica/mat-3.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard34("./img/raspadinha.jpg","./img/matematica/mat-4.jpg", 300, 300);
+scratchCard34("../img/materias/raspadinha.jpg","../img/matematica/mat-4.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -508,7 +509,7 @@ scratchCard34("./img/raspadinha.jpg","./img/matematica/mat-4.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard35("./img/raspadinha.jpg","./img/matematica/mat-5.jpg", 300, 300);
+scratchCard35("../img/materias/raspadinha.jpg","../img/matematica/mat-5.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -520,7 +521,7 @@ scratchCard35("./img/raspadinha.jpg","./img/matematica/mat-5.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard36("./img/raspadinha.jpg","./img/matematica/mat-6.jpg", 300, 300);
+scratchCard36("../img/materias/raspadinha.jpg","../img/matematica/mat-6.jpg", 300, 300);
 </script>
 </div>
 
@@ -536,7 +537,7 @@ scratchCard36("./img/raspadinha.jpg","./img/matematica/mat-6.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard37("./img/raspadinha.jpg","./img/filosofia/filo-1.jpg", 300, 300);
+scratchCard37("../img/materias/raspadinha.jpg","../img/filosofia/filo-1.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -548,7 +549,7 @@ scratchCard37("./img/raspadinha.jpg","./img/filosofia/filo-1.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard38("./img/raspadinha.jpg","./img/filosofia/filo-2.jpg", 300, 300);
+scratchCard38("../img/materias/raspadinha.jpg","../img/filosofia/filo-2.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -560,7 +561,7 @@ scratchCard38("./img/raspadinha.jpg","./img/filosofia/filo-2.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard39("./img/raspadinha.jpg","./img/filosofia/filo-3.jpg", 300, 300);
+scratchCard39("../img/materias/raspadinha.jpg","../img/filosofia/filo-3.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -572,7 +573,7 @@ scratchCard39("./img/raspadinha.jpg","./img/filosofia/filo-3.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard40("./img/raspadinha.jpg","./img/filosofia/filo-4.jpg", 300, 300);
+scratchCard40("../img/materias/raspadinha.jpg","../img/filosofia/filo-4.jpg", 300, 300);
 </script>
 
 <div class="col-3 bloco-texto bloco-imagem">
@@ -584,23 +585,15 @@ scratchCard40("./img/raspadinha.jpg","./img/filosofia/filo-4.jpg", 300, 300);
             </div>
             </div>
 <script>
-scratchCard41("./img/raspadinha.jpg","./img/filosofia/filo-5.jpg", 300, 300);
+scratchCard41("../img/materias/raspadinha.jpg","../img/filosofia/filo-5.jpg", 300, 300);
 </script>
-
-
 </div>
-
-
-
-
-
-
 </div>
 
     <div class="col-100 bloco-logos">
         <div class="content">
             <div class="col-4">
-                <img alt="logo" title="logo" src="img/logo-2.png" width="160" height="80"/>
+                <img alt="logo" title="logo" src="../img/icones/logo-2.png" width="160" height="80"/>
             </div>
         </div>
     </div>

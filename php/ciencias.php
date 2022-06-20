@@ -7,19 +7,19 @@ include 'areaPrivada.php';
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="./css/main-jogos.css">
-    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
-    <title>Jogos</title>
+    <link rel="stylesheet" type="text/css" href="../css/main-4.css">
+    <link rel="stylesheet" type="text/css" href="../css/slick.css"/>
+    <title>Ciências</title>
 </head>
 
-<body> 
+<body>
     <main class="col-100 menu-urls">
         <div class="header-2">
             <div class="menu">
                 <ul>
                     <li><a href="portugues.php">Português</a></li>
                     <li><a href="ingles.php">Inglês</a></li>
-                    <li><a href="ciencias.php">Ciências</a></li>
+                    <li class="active"><a href="ciencias.php">Ciências</a></li>
                     <li><a href="historia.php">História</a></li>
                     <li><a href="geografia.php">Geografia</a></li>
                     <li><a href="matematica.php">Matemática</a></li>
@@ -30,75 +30,66 @@ include 'areaPrivada.php';
                 <input placeholder="Pesquisar" type="text" />
             </div>
         </div>
-    </main> 
-    <div class="col-100">
-        <div class="content texto-destaque">
-            <h1>Venha aprender enquanto <strong>JOGA!</strong></h1>
-            <p> Por aqui você consegue ler e aprender sobre qualquer matéria da sua escola
-                enquanto joga um quiz de perguntas e respostas. Quanto mais respostas você acertar, mais figurinhas você ganha!
-            </p>
+    </main>
+    <div class="col-100 materia">
+        <div class="content">
             <p>
-                Escolha qual matéria você deseja jogar o quiz e boa sorte! Para ver quais figurinhas você já ganhou, clique em 
-                "Ganhe Prêmios".
-                Quando quiser estudar um pouco mais, clique em "Adquire Conhecimento", assim suas chances de acertar os jogos aumenta.
+                <b>Conteúdo para Estudar</b>
             </p>
-            <p>
-                Divirta-se!
-            </p>
-
-            <div class="col-2 bloco-texto">
-                <a href="jogos.php"><img src="./img/game.png"></a>
-                <h3><b>Jogue nosso quiz</b></h3>
-                <p>Aqui você consegue aprender enquanto se diverte
-                com os nossos jogos</p>
-            </div>
-            <div class="col-2 bloco-texto">
-                <a href="index.php"><img src="./img/book.png"></a>
-                <h3><b>Adquire conhecimento</b></h3>
-                <p>Temos todo o material necessário para você se preparar antes de encarar
-                nossos jogos de perguntas e respostas</p>
-            </div>
-            <div class="col-2 bloco-texto">
-                <a href="figurinhas.php"><img src="./img/champion.png"></a>
-                <h3><b>Ganhe prêmios</b></h3>
-                <p>Quanto mais perguntas você acertar, mais figurinhas você ganha.
-                Venha completar sua coleção!</p>
-            </div>
         </div>
     </div>
     <div class="col-100 bloco-imagens-texto">
         <div class="content" style="margin-left: 17%; float: left;">
             <div class="col-3 bloco-texto bloco-imagem">
-                <a href="jogosprt.php"><img src="./img/Quiz-Port.png"></a>
+                <img src="../img/materias/som.png">
+                <p><b>Som</b></p>
+                <p>O som é uma onda capaz de propagar-se pelo ar e por outros meios a partir da vibração de suas moléculas.
+                </p>
+                <p>
+                    <a href="./portugues.html">Clique aqui</a> para saber mais!
+                </p>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <a href="jogosing.php"><img src="./img/Quiz-Ing.png"></a>
+                <img src="../img/materias/heterocromia.png">
+                <p><b>Heterocromia</b></p>
+                <p>Heterocromia ou heterocromia ocular causado por um fator genético no qual o humano ou animal, possui um olho de cada cor.
+                </p>
+                <p>
+                    <a href="./ingles.html">Clique aqui</a> e veja mais sobre!
+                </p>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <a href="jogoscien.php"><img src="./img/Quiz-Cien.png"></a>
+                <img src="../img/materias/rochas.png">
+                <p><b>Formação de Rochas</b></p>
+                <p>Venha aprender sobre o Magma, uma substância responsável pela formaçã de rochas ígneas ou magmáticas.
+                </p>
+                <p>
+                    <a href="./ciencias.html">Clique aqui</a> para entender melhor!
+                </p>
+            </div>
+        </div>
+        <div class="content" style="margin-left: 17%; float: left;">
+            <div class="col-3 bloco-texto bloco-imagem">
+                <img src="../img/materias/terra.png">
+                <p><b>Camadas da Terra</b></p>
+                <p>Existem três camadas que formam a composição da Terra e possuem características distintas entre si.
+                </p>
+                <p>
+                    <a href="./historia.html">Clique aqui</a> para saber tudo!
+                </p>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <a href="jogoshis.php"><img src="./img/Quiz-His.png"></a>
-            </div>
-            <div class="col-3 bloco-texto bloco-imagem">
-                <a href="jogosgeo.php"><img src="./img/Quiz-Geo.png"></a>
-            </div>
-            <div class="col-3 bloco-texto bloco-imagem">
-                <a href="jogosmat.php"><img src="./img/Quiz-Mat.png"></a>
-            </div>
-            <div class="col-3 bloco-texto bloco-imagem">
-                <a href="jogosfilo.php"><img src="./img/Quiz-Filo.png"></a>
+                <img src="../img/materias/solar.png">
+                <p><b>Sistema Solar</b></p>
+                <p>O Sistema Solar é composto por oito planetas, conforme se considera hoje em dia, além de planetas anões e corpos celestes.
+                </p>
+                <p>
+                    <a href="./geografia.html">Clique aqui</a> para saber mais!
+                </p>
             </div>
         </div>
     </div>
-
-    <div class="col-100 bloco-logos">
-        <div class="content">
-            <div class="col-4">
-                <img alt="logo" title="logo" src="img/logo-2.png" width="160" height="80"/>
-            </div>
-        </div>
-    </div>
+    
     <footer>
         <div class="col-100 footer">
             <div class="content">

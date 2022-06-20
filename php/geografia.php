@@ -7,9 +7,9 @@ include 'areaPrivada.php';
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="./css/main-3.css">
-    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
-    <title>Inglês</title>
+    <link rel="stylesheet" type="text/css" href="../css/main-6.css">
+    <link rel="stylesheet" type="text/css" href="../css/slick.css"/>
+    <title>Geografia</title>
 </head>
 
 <body>
@@ -18,10 +18,10 @@ include 'areaPrivada.php';
             <div class="menu">
                 <ul>
                     <li><a href="portugues.php">Português</a></li>
-                    <li class="active"><a href="ingles.php">Inglês</a></li>
+                    <li><a href="ingles.php">Inglês</a></li>
                     <li><a href="ciencias.php">Ciências</a></li>
                     <li><a href="historia.php">História</a></li>
-                    <li><a href="geografia.php">Geografia</a></li>
+                    <li class="active"><a href="geografia.php">Geografia</a></li>
                     <li><a href="matematica.php">Matemática</a></li>
                     <li><a href="filosofia.php">Filosofia</a></li>
                 </ul>
@@ -41,41 +41,41 @@ include 'areaPrivada.php';
     <div class="col-100 bloco-imagens-texto">
         <div class="content" style="margin-left: 17%; float: left;">
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/to-be.png">
-                <p><b>Verb to be</b></p>
-                <p>O verbo to be é um dos verbos mais utilizados da língua inglesa e pode ser traduzido como ser ou estar.
+                <img src="../img/materias/fuso.png">
+                <p><b>Fuso Horário</b></p>
+                <p>A Terra se divide em 24 fusos horários, e cada um deles corresponde a um intervalo de 15°.
                 </p>
                 <p>
                     <a href="./portugues.html">Clique aqui</a> para saber mais!
                 </p>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/present.png">
-                <p><b>Present Perfect</b></p>
-                <p>O present perfect é usado quando expressamos alguma ação no passado que tem repercussão no presente ou ainda continua no presente.
+                <img src="../img/materias/elementos.png">
+                <p><b>Elementos Climáticos</b></p>
+                <p>Os elementos climáticos são aqueles que atuam na atmosfera e são modificados pelos fatores de influência.
                 </p>
                 <p>
                     <a href="./ingles.html">Clique aqui</a> e aprenda!
                 </p>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/possessive.png">
-                <p><b>Possessive Adjectives</b></p>
-                <p>Os possessive adjectives são uma classe de palavras responsável por modificar os substantivos, acrescentando-lhes características de propriedade ou posse.
+                <img src="../img/materias/agua.png">
+                <p><b>Água Superficial e Subterrânea</b></p>
+                <p>As águas superficiais são aquelas que brotam pela superfície terrestre, escoando numa formação inicial em termos de mina.
                 </p>
                 <p>
-                    <a href="./ciencias.html">Clique aqui</a> para saber mais!
+                    <a href="./ciencias.html">Clique aqui</a> para entender melhor!
                 </p>
             </div>
         </div>
         <div class="content" style="margin-left: 17%; float: left;">
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/there.png">
-                <p><b>There is and There are</b></p>
-                <p>Quando usar THERE IS e THERE ARE? Você vai ver que a diferença é simples e saberá como utilizá-los sem dificuldade.
+                <img src="../img/materias/hidrografia.png">
+                <p><b>Hidrografia</b></p>
+                <p>Os mares e os oceanos, situados principalmente no hemisfério sul, correspondem a 71% da superfície do globo, e os rios e lagoas a menos de 3%.
                 </p>
                 <p>
-                    <a href="./historia.html">Clique aqui</a> para aprender sobre!
+                    <a href="./historia.html">Clique aqui</a> para saber mais!
                 </p>
             </div>
         </div>

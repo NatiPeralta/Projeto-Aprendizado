@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url("../img/fundo.png");
+    background-image: url("../img/back/fundo.png");
     background-position: 55%;
     color: #44089B;
     font-family: arial;
@@ -34,7 +34,7 @@ input{
 
 button {
     background-color: #fff;
-    background-image: url('../img/eye-closed.png');
+    background-image: url('../img/icones/eye-closed.png');
     background-repeat: no-repeat;
     background-position: center;
     border: none;
@@ -49,7 +49,7 @@ button {
 }
 
 button:active{
-    background-image: url('../img/eye-open.jfif');
+    background-image: url('../img/icones/eye-open.jfif');
     background-repeat: no-repeat;
     background-position: center;
     background-color: rgba(255,255,255,0.01);

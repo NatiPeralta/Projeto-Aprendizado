@@ -7,9 +7,9 @@ include 'areaPrivada.php';
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="./css/main-4.css">
-    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
-    <title>Ciências</title>
+    <link rel="stylesheet" type="text/css" href="../css/main-2.css">
+    <link rel="stylesheet" type="text/css" href="../css/slick.css"/>
+    <title>Português</title>
 </head>
 
 <body>
@@ -17,9 +17,9 @@ include 'areaPrivada.php';
         <div class="header-2">
             <div class="menu">
                 <ul>
-                    <li><a href="portugues.php">Português</a></li>
+                    <li class="active"><a href="portugues.php">Português</a></li>
                     <li><a href="ingles.php">Inglês</a></li>
-                    <li class="active"><a href="ciencias.php">Ciências</a></li>
+                    <li><a href="ciencias.php">Ciências</a></li>
                     <li><a href="historia.php">História</a></li>
                     <li><a href="geografia.php">Geografia</a></li>
                     <li><a href="matematica.php">Matemática</a></li>
@@ -41,27 +41,28 @@ include 'areaPrivada.php';
     <div class="col-100 bloco-imagens-texto">
         <div class="content" style="margin-left: 17%; float: left;">
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/som.png">
-                <p><b>Som</b></p>
-                <p>O som é uma onda capaz de propagar-se pelo ar e por outros meios a partir da vibração de suas moléculas.
+                <img src="../img/materias/pontuação.png">
+                <p><b>Pontuação</b></p>
+                <p>
+                    Os sinais de pontuação marcam o ritmo de um texto, através de pausas e entonações e conferem à linguagem escrita uma maior clareza, coesão e coerência. 
                 </p>
                 <p>
                     <a href="./portugues.html">Clique aqui</a> para saber mais!
                 </p>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/heterocromia.png">
-                <p><b>Heterocromia</b></p>
-                <p>Heterocromia ou heterocromia ocular causado por um fator genético no qual o humano ou animal, possui um olho de cada cor.
+                <img src="../img/materias/silaba.png">
+                <p><b>Sílaba Tônica</b></p>
+                <p>Numa palavra, a sílaba tônica é aquela que é pronunciada com maior força e intensidade.
                 </p>
                 <p>
-                    <a href="./ingles.html">Clique aqui</a> e veja mais sobre!
+                    <a href="./ingles.html">Clique aqui</a> e aprenda!
                 </p>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/rochas.png">
-                <p><b>Formação de Rochas</b></p>
-                <p>Venha aprender sobre o Magma, uma substância responsável pela formaçã de rochas ígneas ou magmáticas.
+                <img src="../img/materias/est-palavras.png">
+                <p><b>Estrutura de Palavras</b></p>
+                <p>As palavras podem ser subdivididas em estruturas significativas menores, chamadas de morfemas ou elementos mórficos.
                 </p>
                 <p>
                     <a href="./ciencias.html">Clique aqui</a> para entender melhor!
@@ -70,21 +71,12 @@ include 'areaPrivada.php';
         </div>
         <div class="content" style="margin-left: 17%; float: left;">
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/terra.png">
-                <p><b>Camadas da Terra</b></p>
-                <p>Existem três camadas que formam a composição da Terra e possuem características distintas entre si.
+                <img src="../img/materias/clas-gramaticais.png">
+                <p><b>Classes Gramaticais</b></p>
+                <p>as palavras podem ser analisadas e catalogadas em dez classes de palavras ou classes gramaticais distintas.
                 </p>
                 <p>
-                    <a href="./historia.html">Clique aqui</a> para saber tudo!
-                </p>
-            </div>
-            <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/solar.png">
-                <p><b>Sistema Solar</b></p>
-                <p>O Sistema Solar é composto por oito planetas, conforme se considera hoje em dia, além de planetas anões e corpos celestes.
-                </p>
-                <p>
-                    <a href="./geografia.html">Clique aqui</a> para saber mais!
+                    <a href="./historia.html">Clique aqui</a> para saber quais são!
                 </p>
             </div>
         </div>

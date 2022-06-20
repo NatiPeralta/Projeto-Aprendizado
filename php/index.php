@@ -4,7 +4,7 @@
     include 'areaPrivada.php';
 
     if(isset($_SESSION['id']) && !empty($_SESSION['id'])){
-        require_once 'CLASSES/alunos.php';
+        require_once '../CLASSES/alunos.php';
         $u = new dadosAluno;
         $u->conectar("projeto","localhost","root","");
 
@@ -22,8 +22,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="./css/main.css">
-    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/slick.css"/>
     <title>Projeto Aprendizado</title>
 </head>
 
@@ -48,9 +48,9 @@
     </main> 
     <div class="col-100">
         <div class="slider-principal">
-            <img src="./img/slide-1.png" width="800" height="600"/>
-            <img src="./img/slide-2.png" width="800" height="600"/>
-            <img src="./img/slide-3.png" width="800" height="600"/>
+            <img src="../img/icones/slide-1.png" width="800" height="600"/>
+            <img src="../img/icones/slide-2.png" width="800" height="600"/>
+            <img src="../img/icones/slide-3.png" width="800" height="600"/>
         </div>
     </div>
     <div class="col-100">
@@ -64,19 +64,19 @@
             </p>
 
             <div class="col-2 bloco-texto">
-                <a href="jogos.php"><img src="./img/game.png"></a>
+                <a href="jogos.php"><img src="../img/icones/game.png"></a>
                 <h3><b>Jogue nosso quiz</b></h3>
                 <p>Aqui você consegue aprender enquanto se diverte
                 com os nossos jogos</p>
             </div>
             <div class="col-2 bloco-texto">
-                <img src="./img/book.png">
+                <img src="../img/icones/book.png">
                 <h3><b>Adquire conhecimento</b></h3>
                 <p>Temos todo o material necessário para você se preparar antes de encarar
                 nossos jogos de perguntas e respostas</p>
             </div>
             <div class="col-2 bloco-texto">
-                <a href="figurinhas.php"><img src="./img/champion.png"></a>
+                <a href="figurinhas.php"><img src="../img/icones/champion.png"></a>
                 <h3><b>Ganhe prêmios</b></h3>
                 <p>Quanto mais perguntas você acertar, mais figurinhas você ganha.
                 Venha completar sua coleção!</p>
@@ -87,7 +87,7 @@
         <div class="col-100 bloco-imagens-texto">
             <div class="content" style="margin-left: 17%; float: left;">
                     <div class="col-3 bloco-texto bloco-imagem">
-                        <img src="./img/Portugues.png">
+                        <img src="../img/materias/Portugues.png">
                         <p><b>Português</b></p>
                         <p>Tudo o que você precisa saber sobre a matéria está aqui. Venha explorar essa jornada!
                         </p>
@@ -96,7 +96,7 @@
                         </p>
                     </div>
                     <div class="col-3 bloco-texto bloco-imagem">
-                        <img src="./img/Ingles.png">
+                        <img src="../img/materias/Ingles.png">
                         <p><b>Inglês</b></p>
                         <p>O Inglês é uma língua extremamente importante e conhecer o idioma tornou-se fundamental.
                         </p>
@@ -105,7 +105,7 @@
                         </p>
                     </div>
                     <div class="col-3 bloco-texto bloco-imagem">
-                        <img src="./img/Ciencias.png">
+                        <img src="../img/materias/Ciencias.png">
                         <p><b>Ciências</b></p>
                         <p>Venha explorar um mundo de novas descobertas através do nosso material.
                         </p>
@@ -114,7 +114,7 @@
                         </p>
                     </div>
                     <div class="col-3 bloco-texto bloco-imagem">
-                        <img src="./img/História.png">
+                        <img src="../img/materias/História.png">
                         <p><b>História</b></p>
                         <p>Quer viajar para o passado? Venha aprender sobre os acontecimentos ao longo do tempo.
                         </p>
@@ -123,7 +123,7 @@
                         </p>
                     </div>
                     <div class="col-3 bloco-texto bloco-imagem">
-                    <img src="./img/Geografia.png">
+                    <img src="../img/materias/Geografia.png">
                     <p><b>Geografia</b></p>
                     <p>Aqui você verá tudo sobre o estudo da Terra e seus habitantes.
                     </p>
@@ -132,7 +132,7 @@
                     </p>
                     </div>
                     <div class="col-3 bloco-texto bloco-imagem">
-                    <img src="./img/Matematica.png">
+                    <img src="../img/materias/Matematica.png">
                     <p><b>Matemática</b></p>
                     <p>Números, formas e cálculos de um jeito fácil e prático.
                     </p>
@@ -141,7 +141,7 @@
                     </p>
                     </div>
                     <div class="col-3 bloco-texto bloco-imagem">
-                    <img src="./img/Filosofia.png">
+                    <img src="../img/materias/Filosofia.png">
                     <p><b>Filosofia</b></p>
                     <p>"Ser ou não ser, eis a questão", através do nosso material você entenderá sobre a filosofia do mundo.
                     </p>
@@ -183,10 +183,10 @@
                </p>
              </div>
         </div> 
-    <script type="text/javascript" src="./js/jquery.js"></script>
-    <script type="text/javascript" src="./js/jquery-migrate.js"></script>
-    <script type="text/javascript" src="./js/slick.min.js"></script>
-    <script type="text/javascript" src="./js/main.js"></script>
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/jquery-migrate.js"></script>
+    <script type="text/javascript" src="../js/slick.min.js"></script>
+    <script type="text/javascript" src="../js/main.js"></script>
 </body>
 
 </html>

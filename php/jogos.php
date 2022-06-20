@@ -7,12 +7,12 @@ include 'areaPrivada.php';
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="./css/main-8.css">
-    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
-    <title>Filosofia</title>
+    <link rel="stylesheet" type="text/css" href="../css/main-jogos.css">
+    <link rel="stylesheet" type="text/css" href="../css/slick.css"/>
+    <title>Jogos</title>
 </head>
 
-<body>
+<body> 
     <main class="col-100 menu-urls">
         <div class="header-2">
             <div class="menu">
@@ -23,73 +23,82 @@ include 'areaPrivada.php';
                     <li><a href="historia.php">História</a></li>
                     <li><a href="geografia.php">Geografia</a></li>
                     <li><a href="matematica.php">Matemática</a></li>
-                    <li class="active"><a href="filosofia.php">Filosofia</a></li>
+                    <li><a href="filosofia.php">Filosofia</a></li>
                 </ul>
             </div>
             <div class="busca">
                 <input placeholder="Pesquisar" type="text" />
             </div>
         </div>
-    </main>
-    <div class="col-100 materia">
-        <div class="content">
-            <p>
-                <b>Conteúdo para Estudar</b>
+    </main> 
+    <div class="col-100">
+        <div class="content texto-destaque">
+            <h1>Venha aprender enquanto <strong>JOGA!</strong></h1>
+            <p> Por aqui você consegue ler e aprender sobre qualquer matéria da sua escola
+                enquanto joga um quiz de perguntas e respostas. Quanto mais respostas você acertar, mais figurinhas você ganha!
             </p>
+            <p>
+                Escolha qual matéria você deseja jogar o quiz e boa sorte! Para ver quais figurinhas você já ganhou, clique em 
+                "Ganhe Prêmios".
+                Quando quiser estudar um pouco mais, clique em "Adquire Conhecimento", assim suas chances de acertar os jogos aumenta.
+            </p>
+            <p>
+                Divirta-se!
+            </p>
+
+            <div class="col-2 bloco-texto">
+                <a href="jogos.php"><img src="../img/icones/game.png"></a>
+                <h3><b>Jogue nosso quiz</b></h3>
+                <p>Aqui você consegue aprender enquanto se diverte
+                com os nossos jogos</p>
+            </div>
+            <div class="col-2 bloco-texto">
+                <a href="index.php"><img src="../img/icones/book.png"></a>
+                <h3><b>Adquire conhecimento</b></h3>
+                <p>Temos todo o material necessário para você se preparar antes de encarar
+                nossos jogos de perguntas e respostas</p>
+            </div>
+            <div class="col-2 bloco-texto">
+                <a href="figurinhas.php"><img src="../img/icones/champion.png"></a>
+                <h3><b>Ganhe prêmios</b></h3>
+                <p>Quanto mais perguntas você acertar, mais figurinhas você ganha.
+                Venha completar sua coleção!</p>
+            </div>
         </div>
     </div>
     <div class="col-100 bloco-imagens-texto">
         <div class="content" style="margin-left: 17%; float: left;">
-        <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/filo.png">
-                <p><b>O que é Filosofia?</b></p>
-                <p>Nesse conteúdo você saberá tudo sobre o que é Filosofia e no que ela se dedica.
-                </p>
-                <p>
-                    <a href="./portugues.html">Clique aqui</a> para saber mais!
-                </p>
+            <div class="col-3 bloco-texto bloco-imagem">
+                <a href="jogosprt.php"><img src="../img/materias/Quiz-Port.png"></a>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/percepcao.png">
-                <p><b>Percepção na Filosofia</b></p>
-                <p>Aqui você aprenderá sobre as duas concepções sobre a sensação e a percepção.
-                </p>
-                <p>
-                    <a href="./ingles.html">Clique aqui</a> e aprenda!
-                </p>
+                <a href="jogosing.php"><img src="../img/materias/Quiz-Ing.png"></a>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/mundo.png">
-                <p><b>Mundo Sensível</b></p>
-                <p>Aqui você entenderá sobre o mundo sensível de acordo com Platão.
-                </p>
-                <p>
-                    <a href="./ciencias.html">Clique aqui</a> para entender melhor!
-                </p>
-            </div>
-        </div>
-        <div class="content" style="margin-left: 17%; float: left;">
-            <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/existencialismo.png">
-                <p><b>Existencialismo</b></p>
-                <p>Venha aprender sobre a proposta existencialista de analisar o ser humano em seu todo.
-                </p>
-                <p>
-                    <a href="./historia.html">Clique aqui</a> para saber mais!
-                </p>
+                <a href="jogoscien.php"><img src="../img/materias/Quiz-Cien.png"></a>
             </div>
             <div class="col-3 bloco-texto bloco-imagem">
-                <img src="./img/crescimento.png">
-                <p><b>Crescimento Pessoal</b></p>
-                <p>Um caminho fundamental para desenvolver competências e habilidades.
-                </p>
-                <p>
-                    <a href="./geografia.html">Clique aqui</a> para entender melhor!
-                </p>
+                <a href="jogoshis.php"><img src="../img/materias/Quiz-His.png"></a>
+            </div>
+            <div class="col-3 bloco-texto bloco-imagem">
+                <a href="jogosgeo.php"><img src="../img/materias/Quiz-Geo.png"></a>
+            </div>
+            <div class="col-3 bloco-texto bloco-imagem">
+                <a href="jogosmat.php"><img src="../img/materias/Quiz-Mat.png"></a>
+            </div>
+            <div class="col-3 bloco-texto bloco-imagem">
+                <a href="jogosfilo.php"><img src="../img/materias/Quiz-Filo.png"></a>
             </div>
         </div>
     </div>
-    
+
+    <div class="col-100 bloco-logos">
+        <div class="content">
+            <div class="col-4">
+                <img alt="logo" title="logo" src="../img/icones/logo-2.png" width="160" height="80"/>
+            </div>
+        </div>
+    </div>
     <footer>
         <div class="col-100 footer">
             <div class="content">
